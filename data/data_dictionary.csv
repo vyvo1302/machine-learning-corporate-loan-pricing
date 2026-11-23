@@ -1,0 +1,31 @@
+variable,role,source,definition
+facility_id,audit_only,DealScan / alignment,Unique facility identifier; one row per facility.
+package_id,audit_only,DealScan / alignment,Deal package identifier; multiple facilities may belong to a package.
+gvkey,audit_only,DealScan / alignment,Compustat borrower identifier. Repeat borrowers are allowed across time.
+loan_date,audit_only,DealScan / alignment,DealScan facilitystartdate (origination date).
+split,audit_only,DealScan / alignment,train 1996-2014; validation 2015-2017; test 2018-2019. A boundary package is retained only in its earliest split.
+accounting_date,audit_only,DealScan / alignment,Matched fiscal period end; blank if no unambiguous USD INDL/C/STD record within 18 months.
+accounting_available_date,audit_only,DealScan / alignment,"Accounting period end plus six calendar months; assumed availability proxy, not a verified filing date."
+market_month,audit_only,DealScan / alignment,"Last calendar month before origination, when a complete 12-month CRSP return window exists; otherwise blank."
+macro_month,audit_only,DealScan / alignment,Reference month two calendar months before origination.
+spread_bps,target,DealScan allindrawn,"All-in drawn spread, basis points (100 bps = 1 percentage point), includes annual fees in the source measure. Not the total interest rate."
+log_loan_amount,loan_feature,DealScan facilityamt,Natural log of positive facility amount in USD. Only United States Dollars retained.
+maturity_months,loan_feature,DealScan maturity,"Contractual maturity, months; nonpositive values become missing."
+secured,loan_feature,DealScan secured,Source secured status; missing becomes Unknown.
+loan_type,loan_feature,DealScan loantype,Original loan type; missing becomes Unknown.
+loan_purpose,loan_feature,DealScan primarypurpose,Original primary purpose; missing becomes Unknown.
+industry,loan_feature,DealScan sic,Fixed broad SIC sector mapping; see build_data.py and README.
+log_assets,borrower_feature,Compustat at,Natural log of positive total assets in USD millions; retains source monetary scale.
+debt_assets,borrower_feature,"Compustat dltt,dlc,at",(Long-term debt + debt in current liabilities) / positive total assets. Missing debt components are not treated as zero.
+cash_assets,borrower_feature,"Compustat che,at",Cash and short-term investments / positive total assets.
+sales_assets,borrower_feature,"Compustat sale,at",Sales / positive total assets.
+operating_income_assets,borrower_feature,"Compustat oibdp,at",Operating income before depreciation / positive total assets.
+net_income_assets,borrower_feature,"Compustat ni,at",Net income / positive total assets.
+tangible_assets,borrower_feature,"Compustat ppent,at","Net property, plant and equipment / positive total assets."
+current_ratio,borrower_feature,"Compustat act,lct",Current assets / positive current liabilities.
+interest_coverage,borrower_feature,"Compustat oibdp,xint",Operating income before depreciation / positive interest expense.
+return_12m,market_feature,CRSP MSF RET,"Product of (1 + RET) over preceding 12 calendar months minus 1; decimal return, requires all 12 numeric returns >= -1."
+volatility_12m,market_feature,CRSP MSF RET,Sample standard deviation of preceding 12 monthly RET values times sqrt(12); annualized decimal volatility.
+inflation_yoy_pct,macro_feature,FRED CPIAUCSL,"100 * (CPI_t / CPI_(t-12) - 1), seasonally adjusted CPI, reference month t = loan month minus 2; percent."
+unemployment_pct,macro_feature,FRED UNRATE,"Seasonally adjusted unemployment rate, percent; reference month = loan month minus 2."
+fedfunds_pct,macro_feature,FRED FEDFUNDS,"Monthly effective federal funds rate, percent; reference month = loan month minus 2."

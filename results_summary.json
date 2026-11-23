@@ -1,0 +1,3851 @@
+{
+  "boot": {
+    "blocks": {
+      "a_vs_constant": {
+        "d": -19.629377160922544,
+        "hi": -17.29122382944095,
+        "lo": -21.944878220310517,
+        "n_boot": 2000,
+        "n_clusters": 1357,
+        "n_obs": 2169,
+        "rel_a": -0.26003273626174056,
+        "rel_b": -0.20636982578183208,
+        "rmse_a": 75.48809985664361,
+        "rmse_b": 95.11747701756616,
+        "share_a_lower": 1.0,
+        "share_b_lower": 0.0
+      },
+      "b_vs_a": {
+        "d": -3.2095809610358685,
+        "hi": -1.9953517641021514,
+        "lo": -4.489345936159471,
+        "n_boot": 2000,
+        "n_clusters": 1357,
+        "n_obs": 2169,
+        "rel_a": -0.04440573783299964,
+        "rel_b": -0.042517707653670626,
+        "rmse_a": 72.27851889560775,
+        "rmse_b": 75.48809985664361,
+        "share_a_lower": 1.0,
+        "share_b_lower": 0.0
+      },
+      "c_vs_b": {
+        "d": -0.39483450162420297,
+        "hi": 1.2429002762947647,
+        "lo": -2.2364023442854504,
+        "n_boot": 2000,
+        "n_clusters": 1357,
+        "n_obs": 2169,
+        "rel_a": -0.005492685926616882,
+        "rel_b": -0.0054626811348260276,
+        "rmse_a": 71.88368439398354,
+        "rmse_b": 72.27851889560775,
+        "share_a_lower": 0.646,
+        "share_b_lower": 0.354
+      }
+    },
+    "test": {
+      "gbm_vs_constant": {
+        "d": -14.345600719695042,
+        "hi": -9.575734837057658,
+        "lo": -19.125972206411266,
+        "n_boot": 2000,
+        "n_clusters": 885,
+        "n_obs": 1279,
+        "rel_a": -0.23750081873783768,
+        "rel_b": -0.1919197265502188,
+        "rmse_a": 60.40232112012319,
+        "rmse_b": 74.74792183981823,
+        "share_a_lower": 1.0,
+        "share_b_lower": 0.0
+      },
+      "gbm_vs_ols": {
+        "d": 6.02422285438162,
+        "hi": 7.8966183910202075,
+        "lo": 3.983660494048567,
+        "n_boot": 2000,
+        "n_clusters": 885,
+        "n_obs": 1279,
+        "rel_a": 0.09973495625112053,
+        "rel_b": 0.11078399294035086,
+        "rmse_a": 60.40232112012319,
+        "rmse_b": 54.37809826574157,
+        "share_a_lower": 0.0,
+        "share_b_lower": 1.0
+      },
+      "gbm_vs_ridge": {
+        "d": 6.024537599822615,
+        "hi": 7.897101374605275,
+        "lo": 3.9839024783099415,
+        "n_boot": 2000,
+        "n_clusters": 885,
+        "n_obs": 1279,
+        "rel_a": 0.09974016706810833,
+        "rel_b": 0.11079042229761914,
+        "rmse_a": 60.40232112012319,
+        "rmse_b": 54.377783520300575,
+        "share_a_lower": 0.0,
+        "share_b_lower": 1.0
+      },
+      "ols_vs_constant": {
+        "d": -20.369823574076662,
+        "hi": -16.420212391505846,
+        "lo": -24.313155689757462,
+        "n_boot": 2000,
+        "n_clusters": 885,
+        "n_obs": 1279,
+        "rel_a": -0.3745961007045687,
+        "rel_b": -0.2725135772701262,
+        "rmse_a": 54.37809826574157,
+        "rmse_b": 74.74792183981823,
+        "share_a_lower": 1.0,
+        "share_b_lower": 0.0
+      },
+      "ridge_vs_constant": {
+        "d": -20.370138319517658,
+        "hi": -16.420565409920847,
+        "lo": -24.313325216497454,
+        "n_boot": 2000,
+        "n_clusters": 885,
+        "n_obs": 1279,
+        "rel_a": -0.37460405703945215,
+        "rel_b": -0.27251778802854265,
+        "rmse_a": 54.377783520300575,
+        "rmse_b": 74.74792183981823,
+        "share_a_lower": 1.0,
+        "share_b_lower": 0.0
+      },
+      "ridge_vs_ols": {
+        "d": -0.00031474544099552304,
+        "hi": 3.0264312248462035e-05,
+        "lo": -0.0005831126391761643,
+        "n_boot": 2000,
+        "n_clusters": 885,
+        "n_obs": 1279,
+        "rel_a": -5.78812560239828e-06,
+        "rel_b": -5.788092100194206e-06,
+        "rmse_a": 54.377783520300575,
+        "rmse_b": 54.37809826574157,
+        "share_a_lower": 0.965,
+        "share_b_lower": 0.035
+      },
+      "ridgelog_vs_ridge": {
+        "d": -3.3365928798019553,
+        "hi": -2.053868067762174,
+        "lo": -4.636050986956865,
+        "n_boot": 2000,
+        "n_clusters": 885,
+        "n_obs": 1279,
+        "rel_a": -0.06537059261220557,
+        "rel_b": -0.06135948661012126,
+        "rmse_a": 51.04119064049862,
+        "rmse_b": 54.377783520300575,
+        "share_a_lower": 1.0,
+        "share_b_lower": 0.0
+      }
+    },
+    "validation": {
+      "gbm_vs_constant": {
+        "d": -24.227354668017483,
+        "hi": -21.26001402027335,
+        "lo": -27.17932877053524,
+        "n_boot": 2000,
+        "n_clusters": 1357,
+        "n_obs": 2169,
+        "rel_a": -0.34175924465972835,
+        "rel_b": -0.25470981177878815,
+        "rmse_a": 70.89012234954868,
+        "rmse_b": 95.11747701756616,
+        "share_a_lower": 1.0,
+        "share_b_lower": 0.0
+      },
+      "gbm_vs_ols": {
+        "d": -0.9935512973046059,
+        "hi": 0.6102946838642043,
+        "lo": -2.5833690391496926,
+        "n_boot": 2000,
+        "n_clusters": 1357,
+        "n_obs": 2169,
+        "rel_a": -0.01401537004556928,
+        "rel_b": -0.01382165444389609,
+        "rmse_a": 70.89012234954868,
+        "rmse_b": 71.88367364685328,
+        "share_a_lower": 0.8895,
+        "share_b_lower": 0.1105
+      },
+      "gbm_vs_ridge": {
+        "d": -0.9935620444348672,
+        "hi": 0.6102313191655152,
+        "lo": -2.5833233876599677,
+        "n_boot": 2000,
+        "n_clusters": 1357,
+        "n_obs": 2169,
+        "rel_a": -0.014015521648217224,
+        "rel_b": -0.013821801884685053,
+        "rmse_a": 70.89012234954868,
+        "rmse_b": 71.88368439398354,
+        "share_a_lower": 0.8895,
+        "share_b_lower": 0.1105
+      },
+      "ols_vs_constant": {
+        "d": -23.233803370712877,
+        "hi": -19.791765352978892,
+        "lo": -26.65219950947823,
+        "n_boot": 2000,
+        "n_clusters": 1357,
+        "n_obs": 2169,
+        "rel_a": -0.32321391203313854,
+        "rel_b": -0.24426429399953586,
+        "rmse_a": 71.88367364685328,
+        "rmse_b": 95.11747701756616,
+        "share_a_lower": 1.0,
+        "share_b_lower": 0.0
+      },
+      "ridge_vs_constant": {
+        "d": -23.233792623582616,
+        "hi": -19.792058375338886,
+        "lo": -26.65165698367626,
+        "n_boot": 2000,
+        "n_clusters": 1357,
+        "n_obs": 2169,
+        "rel_a": -0.3232137142030969,
+        "rel_b": -0.24426418101156985,
+        "rmse_a": 71.88368439398354,
+        "rmse_b": 95.11747701756616,
+        "share_a_lower": 1.0,
+        "share_b_lower": 0.0
+      },
+      "ridge_vs_ols": {
+        "d": 1.074713026127938e-05,
+        "hi": 0.0005325827256640991,
+        "lo": -0.0004154756272566117,
+        "n_boot": 2000,
+        "n_clusters": 1357,
+        "n_obs": 2169,
+        "rel_a": 1.495072261791145e-07,
+        "rel_b": 1.4950724853152852e-07,
+        "rmse_a": 71.88368439398354,
+        "rmse_b": 71.88367364685328,
+        "share_a_lower": 0.503,
+        "share_b_lower": 0.497
+      },
+      "ridgelog_vs_ridge": {
+        "d": -1.6828673561154943,
+        "hi": 2.639891100781046,
+        "lo": -5.193179305729774,
+        "n_boot": 2000,
+        "n_clusters": 1357,
+        "n_obs": 2169,
+        "rel_a": -0.023972190454816418,
+        "rel_b": -0.02341097803073023,
+        "rmse_a": 70.20081703786805,
+        "rmse_b": 71.88368439398354,
+        "share_a_lower": 0.8045,
+        "share_b_lower": 0.1955
+      }
+    }
+  },
+  "checks": {
+    "all_passed": true,
+    "block_c_equals_main_ridge": true,
+    "bootstrap_pairs_complete": true,
+    "chronological_separation": true,
+    "documented_counts_match": true,
+    "documented_missing_match": true,
+    "facility_id_unique": true,
+    "freeze_digest_unchanged": true,
+    "log_ridge_not_in_selection": true,
+    "medians_unaffected_by_caps": true,
+    "mse_decomposition_consistent": true,
+    "no_package_crosses_splits": true,
+    "no_rows_dropped": true,
+    "ols_full_rank_dev": true,
+    "ols_full_rank_train": true,
+    "packages_nest_in_borrowers": true,
+    "perm_on_validation_train_fit": true,
+    "r2_oos_constant_zero": true,
+    "r2_oos_parts_sum": true,
+    "same_test_facilities": true,
+    "split_label_matches_year": true,
+    "test_locked_until_freeze": true,
+    "test_rows_complete": true,
+    "timing_rules_hold": true,
+    "unseen_mapped_to_pooled": true
+  },
+  "freeze": {
+    "digest": "487e12fda272a59b",
+    "gbm_max_depth": 3,
+    "gbm_min_samples_leaf": 20,
+    "large_error_threshold_bps": 141.78024469909735,
+    "preferred_family": "gbm",
+    "preferred_key": "gbm_d3_l20",
+    "ridge_alpha": 0.01,
+    "ridgelog_alpha": 10.0,
+    "selected_keys": {
+      "constant": "constant",
+      "gbm": "gbm_d3_l20",
+      "ols": "ols",
+      "ridge": "ridge_a0.01",
+      "ridge_log": "ridgelog_a10"
+    }
+  },
+  "meta": {
+    "author": "Thanh Vy Vo",
+    "constants": {
+      "cap_cols": [
+        "debt_assets",
+        "sales_assets",
+        "operating_income_assets",
+        "net_income_assets",
+        "current_ratio",
+        "interest_coverage",
+        "return_12m",
+        "volatility_12m"
+      ],
+      "cap_q": [
+        0.01,
+        0.99
+      ],
+      "gbm_fixed": {
+        "learning_rate": 0.05,
+        "n_estimators": 300,
+        "subsample": 1.0
+      },
+      "gbm_grid": [
+        {
+          "max_depth": 2,
+          "min_samples_leaf": 100
+        },
+        {
+          "max_depth": 2,
+          "min_samples_leaf": 20
+        },
+        {
+          "max_depth": 3,
+          "min_samples_leaf": 100
+        },
+        {
+          "max_depth": 3,
+          "min_samples_leaf": 20
+        },
+        {
+          "max_depth": 5,
+          "min_samples_leaf": 100
+        },
+        {
+          "max_depth": 5,
+          "min_samples_leaf": 20
+        }
+      ],
+      "min_category_count": 20,
+      "n_top_numeric": 4,
+      "pd_quantiles": [
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.55,
+        0.6,
+        0.65,
+        0.7,
+        0.75,
+        0.8,
+        0.85,
+        0.9,
+        0.95
+      ],
+      "perm_repeats": 20,
+      "ridge_alphas": [
+        0.01,
+        0.1,
+        1.0,
+        10.0,
+        100.0,
+        1000.0,
+        10000.0,
+        100000.0
+      ]
+    },
+    "features": {
+      "borrower": [
+        "log_assets",
+        "debt_assets",
+        "cash_assets",
+        "sales_assets",
+        "operating_income_assets",
+        "net_income_assets",
+        "tangible_assets",
+        "current_ratio",
+        "interest_coverage"
+      ],
+      "loan": [
+        "log_loan_amount",
+        "maturity_months",
+        "secured",
+        "loan_type",
+        "loan_purpose",
+        "industry"
+      ],
+      "macro": [
+        "inflation_yoy_pct",
+        "unemployment_pct",
+        "fedfunds_pct"
+      ],
+      "market": [
+        "return_12m",
+        "volatility_12m"
+      ]
+    },
+    "seed": 42,
+    "source_facts": {
+      "boundary_omitted": 25,
+      "current_ratio_missing": 1479,
+      "current_ratio_missing_pct": 19.45,
+      "market_ambiguous_source": 862,
+      "market_missing": 2370,
+      "market_missing_pct": 31.16,
+      "maturity_missing": 12,
+      "n_facilities": 7605,
+      "n_test": 1279,
+      "n_train": 4157,
+      "n_validation": 2169,
+      "non_usd_usa": 275,
+      "outside_years": 991,
+      "raw_facilities": 8896,
+      "raw_rows": 160041,
+      "rows_per_facility": 17.990220323741006
+    },
+    "thresholds": {
+      "boot_level": 0.95,
+      "boot_n": 2000,
+      "corr_report": 0.5,
+      "joint_rel": 0.1,
+      "large_error_mult": 2.0,
+      "large_rel": 0.1,
+      "material_count": 3,
+      "material_rel": 0.5,
+      "monotone_rho": 0.9,
+      "pd_flat_bps": 2.0,
+      "raw_flat_bps": 5.0,
+      "ridge_flat_bps": 1.0,
+      "similar_rel": 0.02,
+      "subgroup_rel": 0.05,
+      "tie_share": 0.01,
+      "tie_tol": 1e-09,
+      "under_share_hi": 0.6,
+      "under_share_lo": 0.4
+    },
+    "units": {
+      "note": "All-in drawn spread in basis points (100 bps = 1 percentage point); it includes annual fees and is not the total interest rate.",
+      "target": "spread_bps"
+    },
+    "versions": {
+      "matplotlib": "3.11.2",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "python": "3.14.8",
+      "scipy": "1.18.1",
+      "sklearn": "1.9.1"
+    }
+  },
+  "s1": {
+    "borrowers_multi": {
+      "max_facilities": 41,
+      "median_facilities": 1.0,
+      "n_multi": 1548
+    },
+    "counts_by_split": {
+      "test": 1279,
+      "train": 4157,
+      "validation": 2169
+    },
+    "counts_by_year": {
+      "1996": 188,
+      "1997": 290,
+      "1998": 218,
+      "1999": 167,
+      "2000": 215,
+      "2001": 160,
+      "2002": 142,
+      "2003": 116,
+      "2004": 118,
+      "2005": 128,
+      "2006": 142,
+      "2007": 99,
+      "2008": 103,
+      "2009": 74,
+      "2010": 79,
+      "2011": 100,
+      "2012": 118,
+      "2013": 828,
+      "2014": 872,
+      "2015": 878,
+      "2016": 671,
+      "2017": 620,
+      "2018": 653,
+      "2019": 626
+    },
+    "coverage": {
+      "max_count_1996_2012": 290,
+      "max_year_1996_2012": 1997,
+      "min_count_1996_2012": 74,
+      "min_year_1996_2012": 2009,
+      "n_2012": 118,
+      "n_2013": 828,
+      "n_train_1996_2012": 2457,
+      "n_train_2013_2014": 1700,
+      "ratio_2013_2012": 7.016949152542373,
+      "share_train_2013_2014": 0.4089487611258119
+    },
+    "date_max": "2019-12-30",
+    "date_min": "1996-01-02",
+    "facility_id_unique": true,
+    "missing_by_split": {
+      "cash_assets": {
+        "test": 20,
+        "train": 135,
+        "validation": 46
+      },
+      "current_ratio": {
+        "test": 234,
+        "train": 821,
+        "validation": 424
+      },
+      "debt_assets": {
+        "test": 22,
+        "train": 152,
+        "validation": 48
+      },
+      "fedfunds_pct": {
+        "test": 0,
+        "train": 0,
+        "validation": 0
+      },
+      "inflation_yoy_pct": {
+        "test": 0,
+        "train": 0,
+        "validation": 0
+      },
+      "interest_coverage": {
+        "test": 137,
+        "train": 674,
+        "validation": 284
+      },
+      "log_assets": {
+        "test": 20,
+        "train": 134,
+        "validation": 46
+      },
+      "log_loan_amount": {
+        "test": 0,
+        "train": 0,
+        "validation": 0
+      },
+      "maturity_months": {
+        "test": 0,
+        "train": 11,
+        "validation": 1
+      },
+      "net_income_assets": {
+        "test": 21,
+        "train": 144,
+        "validation": 50
+      },
+      "operating_income_assets": {
+        "test": 97,
+        "train": 340,
+        "validation": 183
+      },
+      "return_12m": {
+        "test": 338,
+        "train": 1399,
+        "validation": 633
+      },
+      "sales_assets": {
+        "test": 21,
+        "train": 144,
+        "validation": 50
+      },
+      "tangible_assets": {
+        "test": 87,
+        "train": 350,
+        "validation": 172
+      },
+      "unemployment_pct": {
+        "test": 0,
+        "train": 0,
+        "validation": 0
+      },
+      "volatility_12m": {
+        "test": 338,
+        "train": 1399,
+        "validation": 633
+      }
+    },
+    "missing_full": {
+      "accounting_available_date": {
+        "n": 116,
+        "pct": 1.5253122945430637
+      },
+      "accounting_date": {
+        "n": 116,
+        "pct": 1.5253122945430637
+      },
+      "cash_assets": {
+        "n": 201,
+        "pct": 2.6429980276134124
+      },
+      "current_ratio": {
+        "n": 1479,
+        "pct": 19.447731755424062
+      },
+      "debt_assets": {
+        "n": 222,
+        "pct": 2.9191321499013805
+      },
+      "facility_id": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "fedfunds_pct": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "gvkey": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "industry": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "inflation_yoy_pct": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "interest_coverage": {
+        "n": 1095,
+        "pct": 14.398422090729783
+      },
+      "loan_date": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "loan_purpose": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "loan_type": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "log_assets": {
+        "n": 200,
+        "pct": 2.6298487836949374
+      },
+      "log_loan_amount": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "macro_month": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "market_month": {
+        "n": 2370,
+        "pct": 31.16370808678501
+      },
+      "maturity_months": {
+        "n": 12,
+        "pct": 0.15779092702169625
+      },
+      "net_income_assets": {
+        "n": 215,
+        "pct": 2.827087442472058
+      },
+      "operating_income_assets": {
+        "n": 620,
+        "pct": 8.152531229454306
+      },
+      "package_id": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "return_12m": {
+        "n": 2370,
+        "pct": 31.16370808678501
+      },
+      "sales_assets": {
+        "n": 215,
+        "pct": 2.827087442472058
+      },
+      "secured": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "split": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "spread_bps": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "tangible_assets": {
+        "n": 609,
+        "pct": 8.007889546351084
+      },
+      "unemployment_pct": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "volatility_12m": {
+        "n": 2370,
+        "pct": 31.16370808678501
+      }
+    },
+    "n_borrowers": 3864,
+    "n_facilities": 7605,
+    "n_missing_target_full": 0,
+    "n_packages": 6972,
+    "n_rows": 7605,
+    "packages": {
+      "max_facilities": 9,
+      "n_multi_facility": 485
+    },
+    "quintiles": {
+      "debt_assets": {
+        "counts": [
+          801,
+          801,
+          801,
+          801,
+          801
+        ],
+        "delta": 25.0,
+        "medians": [
+          175.0,
+          150.0,
+          150.0,
+          175.0,
+          200.0
+        ],
+        "straddle_share": 0.0,
+        "ties_split": false,
+        "top_value_share": 0.08039950062421973,
+        "x_max": [
+          0.06514786509,
+          0.2045880807,
+          0.328290091,
+          0.4658069558,
+          2.560317788
+        ],
+        "x_min": [
+          0.0,
+          0.0653690417,
+          0.2046014661,
+          0.3282905547,
+          0.4661635274
+        ]
+      },
+      "log_assets": {
+        "counts": [
+          805,
+          804,
+          805,
+          804,
+          805
+        ],
+        "delta": -130.0,
+        "medians": [
+          255.0,
+          200.0,
+          175.0,
+          150.0,
+          125.0
+        ],
+        "straddle_share": 0.0,
+        "ties_split": false,
+        "top_value_share": 0.0019885657469550086,
+        "x_max": [
+          4.862050209,
+          6.157591086,
+          7.375267683,
+          8.759511722,
+          14.47740956
+        ],
+        "x_min": [
+          -1.890475442,
+          4.86435247,
+          6.158278988,
+          7.376569451,
+          8.76188968
+        ]
+      },
+      "maturity_months": {
+        "counts": [
+          830,
+          829,
+          829,
+          829,
+          829
+        ],
+        "delta": -37.5,
+        "medians": [
+          187.5,
+          225.0,
+          175.0,
+          150.0,
+          150.0
+        ],
+        "straddle_share": 0.6174626145682586,
+        "ties_split": true,
+        "top_value_share": 0.40496864447660397,
+        "x_max": [
+          24.0,
+          36.0,
+          60.0,
+          60.0,
+          180.0
+        ],
+        "x_min": [
+          1.0,
+          24.0,
+          36.0,
+          60.0,
+          60.0
+        ]
+      },
+      "volatility_12m": {
+        "counts": [
+          552,
+          551,
+          552,
+          551,
+          552
+        ],
+        "delta": 150.0,
+        "medians": [
+          125.0,
+          150.0,
+          175.0,
+          200.0,
+          275.0
+        ],
+        "straddle_share": 0.0007251631617113851,
+        "ties_split": false,
+        "top_value_share": 0.0029006526468455403,
+        "x_max": [
+          0.2078297037,
+          0.2874247248,
+          0.3935333069,
+          0.603176899,
+          6.183085014
+        ],
+        "x_min": [
+          0.06463099421,
+          0.2078297037,
+          0.2876790252,
+          0.394181421,
+          0.6037017599
+        ]
+      }
+    },
+    "secured_median_gap_yes_minus_no": 100.0,
+    "train_by_broad_type": {
+      "Other": {
+        "mean": 239.55200000000002,
+        "median": 230.0,
+        "n": 75
+      },
+      "Revolver (1 yr or longer)": {
+        "mean": 198.53055065192743,
+        "median": 175.0,
+        "n": 3528
+      },
+      "Short-term revolver / 364-day": {
+        "mean": 155.57648401826484,
+        "median": 112.5,
+        "n": 438
+      },
+      "Term loan": {
+        "mean": 261.7897155172414,
+        "median": 225.0,
+        "n": 116
+      }
+    },
+    "train_by_secured": {
+      "No": {
+        "mean": 123.06361424017004,
+        "median": 125.0,
+        "n": 941
+      },
+      "Unknown": {
+        "mean": 150.03711897738447,
+        "median": 137.0,
+        "n": 1017
+      },
+      "Yes": {
+        "mean": 249.43232319236017,
+        "median": 225.0,
+        "n": 2199
+      }
+    },
+    "train_median_by_year": {
+      "1996": 175.0,
+      "1997": 150.0,
+      "1998": 200.0,
+      "1999": 250.0,
+      "2000": 175.0,
+      "2001": 225.0,
+      "2002": 225.0,
+      "2003": 272.5,
+      "2004": 225.0,
+      "2005": 125.0,
+      "2006": 125.0,
+      "2007": 150.0,
+      "2008": 200.0,
+      "2009": 325.0,
+      "2010": 275.0,
+      "2011": 200.0,
+      "2012": 175.0,
+      "2013": 175.0,
+      "2014": 150.0
+    },
+    "train_target": {
+      "log_skew": -0.9607497667258086,
+      "max": 1125.0,
+      "mean": 196.51005285061345,
+      "median": 175.0,
+      "min": 4.25,
+      "n": 4157,
+      "p01": 22.5,
+      "p05": 40.0,
+      "p25": 125.0,
+      "p75": 250.0,
+      "p95": 405.0,
+      "p99": 555.0,
+      "sd": 117.73968222697117,
+      "skew": 1.4196131798124545
+    }
+  },
+  "s2": {
+    "borrowers": {
+      "test": {
+        "n": 885,
+        "seen_either": 792,
+        "seen_train": 566,
+        "seen_validation": 654,
+        "share_seen": 0.8949152542372881
+      },
+      "validation": {
+        "n": 1357,
+        "seen_train": 819,
+        "share_seen": 0.6035372144436256
+      }
+    },
+    "category_levels": {
+      "industry": {
+        "Agriculture": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 11,
+          "train_fit": "pooled column",
+          "validation": 3
+        },
+        "Construction": {
+          "dev_fit": "own column",
+          "test": 27,
+          "train": 69,
+          "train_fit": "own column",
+          "validation": 50
+        },
+        "Finance and real estate": {
+          "dev_fit": "own column",
+          "test": 255,
+          "train": 742,
+          "train_fit": "own column",
+          "validation": 420
+        },
+        "Manufacturing": {
+          "dev_fit": "reference level",
+          "test": 436,
+          "train": 1312,
+          "train_fit": "reference level",
+          "validation": 725
+        },
+        "Mining": {
+          "dev_fit": "own column",
+          "test": 72,
+          "train": 274,
+          "train_fit": "own column",
+          "validation": 100
+        },
+        "Public administration": {
+          "dev_fit": "own column",
+          "test": 1,
+          "train": 36,
+          "train_fit": "own column",
+          "validation": 1
+        },
+        "Retail": {
+          "dev_fit": "own column",
+          "test": 78,
+          "train": 317,
+          "train_fit": "own column",
+          "validation": 156
+        },
+        "Services": {
+          "dev_fit": "own column",
+          "test": 188,
+          "train": 709,
+          "train_fit": "own column",
+          "validation": 340
+        },
+        "Transport and utilities": {
+          "dev_fit": "own column",
+          "test": 160,
+          "train": 491,
+          "train_fit": "own column",
+          "validation": 270
+        },
+        "Wholesale": {
+          "dev_fit": "own column",
+          "test": 62,
+          "train": 196,
+          "train_fit": "own column",
+          "validation": 104
+        }
+      },
+      "loan_purpose": {
+        "Acquis. line": {
+          "dev_fit": "own column",
+          "test": 29,
+          "train": 141,
+          "train_fit": "own column",
+          "validation": 57
+        },
+        "CP backup": {
+          "dev_fit": "own column",
+          "test": 0,
+          "train": 122,
+          "train_fit": "own column",
+          "validation": 5
+        },
+        "Capital expend.": {
+          "dev_fit": "own column",
+          "test": 1,
+          "train": 22,
+          "train_fit": "own column",
+          "validation": 3
+        },
+        "Corp. purposes": {
+          "dev_fit": "reference level",
+          "test": 1073,
+          "train": 2119,
+          "train_fit": "reference level",
+          "validation": 1694
+        },
+        "Debt Repay.": {
+          "dev_fit": "own column",
+          "test": 16,
+          "train": 529,
+          "train_fit": "own column",
+          "validation": 29
+        },
+        "Debtor-in-poss.": {
+          "dev_fit": "own column",
+          "test": 2,
+          "train": 37,
+          "train_fit": "own column",
+          "validation": 8
+        },
+        "Dividend Recap": {
+          "dev_fit": "pooled column",
+          "test": 4,
+          "train": 12,
+          "train_fit": "pooled column",
+          "validation": 7
+        },
+        "Dividend or Distribution to Shareholders": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 0,
+          "train_fit": "not in fit: pooled column",
+          "validation": 1
+        },
+        "Equip. Purch.": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 6,
+          "train_fit": "pooled column",
+          "validation": 0
+        },
+        "Exit financing": {
+          "dev_fit": "pooled column",
+          "test": 2,
+          "train": 6,
+          "train_fit": "pooled column",
+          "validation": 2
+        },
+        "IPO Relat. Finan.": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 8,
+          "train_fit": "pooled column",
+          "validation": 2
+        },
+        "LBO": {
+          "dev_fit": "pooled column",
+          "test": 2,
+          "train": 13,
+          "train_fit": "pooled column",
+          "validation": 5
+        },
+        "MBO": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 0,
+          "train_fit": "not in fit: pooled column",
+          "validation": 1
+        },
+        "Merger": {
+          "dev_fit": "pooled column",
+          "test": 6,
+          "train": 8,
+          "train_fit": "pooled column",
+          "validation": 11
+        },
+        "Mort. Warehse.": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 9,
+          "train_fit": "pooled column",
+          "validation": 0
+        },
+        "Other": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 7,
+          "train_fit": "pooled column",
+          "validation": 0
+        },
+        "Proj. finance": {
+          "dev_fit": "pooled column",
+          "test": 2,
+          "train": 8,
+          "train_fit": "pooled column",
+          "validation": 2
+        },
+        "Real estate": {
+          "dev_fit": "pooled column",
+          "test": 3,
+          "train": 13,
+          "train_fit": "pooled column",
+          "validation": 4
+        },
+        "Rec. Prog.": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 3,
+          "train_fit": "pooled column",
+          "validation": 0
+        },
+        "Recap.": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 15,
+          "train_fit": "pooled column",
+          "validation": 0
+        },
+        "SBO": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 2,
+          "train_fit": "pooled column",
+          "validation": 2
+        },
+        "Securities Purchase": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 2,
+          "train_fit": "pooled column",
+          "validation": 6
+        },
+        "Ship finance": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 1,
+          "train_fit": "pooled column",
+          "validation": 0
+        },
+        "Spinoff": {
+          "dev_fit": "own column",
+          "test": 7,
+          "train": 32,
+          "train_fit": "own column",
+          "validation": 30
+        },
+        "Stock buyback": {
+          "dev_fit": "pooled column",
+          "test": 1,
+          "train": 18,
+          "train_fit": "pooled column",
+          "validation": 0
+        },
+        "Takeover": {
+          "dev_fit": "own column",
+          "test": 62,
+          "train": 206,
+          "train_fit": "own column",
+          "validation": 116
+        },
+        "TelcomBuildout": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 3,
+          "train_fit": "pooled column",
+          "validation": 0
+        },
+        "Work. cap.": {
+          "dev_fit": "own column",
+          "test": 69,
+          "train": 815,
+          "train_fit": "own column",
+          "validation": 184
+        }
+      },
+      "loan_type": {
+        "364-Day Facility": {
+          "dev_fit": "own column",
+          "test": 97,
+          "train": 331,
+          "train_fit": "own column",
+          "validation": 114
+        },
+        "Acquisition Facility": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 6,
+          "train_fit": "pooled column",
+          "validation": 0
+        },
+        "Bridge Loan": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 1,
+          "train_fit": "pooled column",
+          "validation": 0
+        },
+        "CAPEX Facility": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 1,
+          "train_fit": "pooled column",
+          "validation": 0
+        },
+        "Delay Draw Term Loan": {
+          "dev_fit": "own column",
+          "test": 41,
+          "train": 102,
+          "train_fit": "own column",
+          "validation": 111
+        },
+        "Demand Loan": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 2,
+          "train_fit": "pooled column",
+          "validation": 0
+        },
+        "Limited Line": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 1,
+          "train_fit": "pooled column",
+          "validation": 0
+        },
+        "Multi-Option Facility": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 2,
+          "train_fit": "pooled column",
+          "validation": 0
+        },
+        "Other Loan": {
+          "dev_fit": "pooled column",
+          "test": 2,
+          "train": 10,
+          "train_fit": "pooled column",
+          "validation": 5
+        },
+        "Revolver/Line < 1 Yr.": {
+          "dev_fit": "own column",
+          "test": 4,
+          "train": 107,
+          "train_fit": "own column",
+          "validation": 8
+        },
+        "Revolver/Line >= 1 Yr.": {
+          "dev_fit": "reference level",
+          "test": 1135,
+          "train": 3528,
+          "train_fit": "reference level",
+          "validation": 1930
+        },
+        "Revolver/Term Loan": {
+          "dev_fit": "own column",
+          "test": 0,
+          "train": 46,
+          "train_fit": "own column",
+          "validation": 1
+        },
+        "Securitisation": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 1,
+          "train_fit": "pooled column",
+          "validation": 0
+        },
+        "Synthetic Lease": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 5,
+          "train_fit": "pooled column",
+          "validation": 0
+        },
+        "Term Loan": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 5,
+          "train_fit": "pooled column",
+          "validation": 0
+        },
+        "Term Loan A": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 1,
+          "train_fit": "pooled column",
+          "validation": 0
+        },
+        "Term Loan B": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 6,
+          "train_fit": "pooled column",
+          "validation": 0
+        },
+        "Term Loan C": {
+          "dev_fit": "pooled column",
+          "test": 0,
+          "train": 2,
+          "train_fit": "pooled column",
+          "validation": 0
+        }
+      },
+      "secured": {
+        "No": {
+          "dev_fit": "own column",
+          "test": 357,
+          "train": 941,
+          "train_fit": "own column",
+          "validation": 693
+        },
+        "Unknown": {
+          "dev_fit": "own column",
+          "test": 554,
+          "train": 1017,
+          "train_fit": "own column",
+          "validation": 683
+        },
+        "Yes": {
+          "dev_fit": "reference level",
+          "test": 368,
+          "train": 2199,
+          "train_fit": "reference level",
+          "validation": 793
+        }
+      }
+    },
+    "chronological_ok": true,
+    "n_unseen_test": 0,
+    "n_unseen_validation": 2,
+    "ols_cond_train": 178.96050842064616,
+    "ols_rank_train": 52,
+    "packages_crossing_splits": 0,
+    "prep_train": {
+      "caps": {
+        "current_ratio": {
+          "hi": 8.396311967250018,
+          "lo": 0.301502024625,
+          "n_above": 34,
+          "n_below": 34
+        },
+        "debt_assets": {
+          "hi": 1.0152730420400002,
+          "lo": 0.0,
+          "n_above": 41,
+          "n_below": 0
+        },
+        "interest_coverage": {
+          "hi": 880.5228355199864,
+          "lo": -88.2487996338,
+          "n_above": 35,
+          "n_below": 35
+        },
+        "net_income_assets": {
+          "hi": 0.28404859700400004,
+          "lo": -0.85475045988,
+          "n_above": 41,
+          "n_below": 41
+        },
+        "operating_income_assets": {
+          "hi": 0.4171221041160005,
+          "lo": -0.5449729528239998,
+          "n_above": 39,
+          "n_below": 39
+        },
+        "return_12m": {
+          "hi": 2.7383391328699966,
+          "lo": -0.831015497791,
+          "n_above": 28,
+          "n_below": 28
+        },
+        "sales_assets": {
+          "hi": 4.492358385120004,
+          "lo": 0.041228657276399995,
+          "n_above": 41,
+          "n_below": 41
+        },
+        "volatility_12m": {
+          "hi": 1.7942812772299965,
+          "lo": 0.10122556138199999,
+          "n_above": 28,
+          "n_below": 28
+        }
+      },
+      "feature_names": [
+        "num__log_loan_amount",
+        "num__maturity_months",
+        "num__log_assets",
+        "num__debt_assets",
+        "num__cash_assets",
+        "num__sales_assets",
+        "num__operating_income_assets",
+        "num__net_income_assets",
+        "num__tangible_assets",
+        "num__current_ratio",
+        "num__interest_coverage",
+        "num__return_12m",
+        "num__volatility_12m",
+        "num__inflation_yoy_pct",
+        "num__unemployment_pct",
+        "num__fedfunds_pct",
+        "miss__missing_maturity_months",
+        "miss__missing_log_assets",
+        "miss__missing_debt_assets",
+        "miss__missing_cash_assets",
+        "miss__missing_sales_assets",
+        "miss__missing_operating_income_assets",
+        "miss__missing_tangible_assets",
+        "miss__missing_current_ratio",
+        "miss__missing_interest_coverage",
+        "miss__missing_return_12m",
+        "cat__secured_No",
+        "cat__secured_Unknown",
+        "cat__loan_type_364-Day Facility",
+        "cat__loan_type_Delay Draw Term Loan",
+        "cat__loan_type_Revolver/Line < 1 Yr.",
+        "cat__loan_type_Revolver/Term Loan",
+        "cat__loan_type_infrequent_sklearn",
+        "cat__loan_purpose_Acquis. line",
+        "cat__loan_purpose_CP backup",
+        "cat__loan_purpose_Capital expend.",
+        "cat__loan_purpose_Debt Repay.",
+        "cat__loan_purpose_Debtor-in-poss.",
+        "cat__loan_purpose_Spinoff",
+        "cat__loan_purpose_Takeover",
+        "cat__loan_purpose_Work. cap.",
+        "cat__loan_purpose_infrequent_sklearn",
+        "cat__industry_Construction",
+        "cat__industry_Finance and real estate",
+        "cat__industry_Mining",
+        "cat__industry_Public administration",
+        "cat__industry_Retail",
+        "cat__industry_Services",
+        "cat__industry_Transport and utilities",
+        "cat__industry_Wholesale",
+        "cat__industry_infrequent_sklearn"
+      ],
+      "indicator_groups": {
+        "cash_assets": [
+          "cash_assets"
+        ],
+        "current_ratio": [
+          "current_ratio"
+        ],
+        "debt_assets": [
+          "debt_assets"
+        ],
+        "interest_coverage": [
+          "interest_coverage"
+        ],
+        "log_assets": [
+          "log_assets"
+        ],
+        "maturity_months": [
+          "maturity_months"
+        ],
+        "operating_income_assets": [
+          "operating_income_assets"
+        ],
+        "return_12m": [
+          "return_12m",
+          "volatility_12m"
+        ],
+        "sales_assets": [
+          "sales_assets",
+          "net_income_assets"
+        ],
+        "tangible_assets": [
+          "tangible_assets"
+        ]
+      },
+      "infrequent_levels": {
+        "industry": [
+          "Agriculture"
+        ],
+        "loan_purpose": [
+          "Dividend Recap",
+          "Equip. Purch.",
+          "Exit financing",
+          "IPO Relat. Finan.",
+          "LBO",
+          "Merger",
+          "Mort. Warehse.",
+          "Other",
+          "Proj. finance",
+          "Real estate",
+          "Rec. Prog.",
+          "Recap.",
+          "SBO",
+          "Securities Purchase",
+          "Ship finance",
+          "Stock buyback",
+          "TelcomBuildout"
+        ],
+        "loan_type": [
+          "Acquisition Facility",
+          "Bridge Loan",
+          "CAPEX Facility",
+          "Demand Loan",
+          "Limited Line",
+          "Multi-Option Facility",
+          "Other Loan",
+          "Securitisation",
+          "Synthetic Lease",
+          "Term Loan",
+          "Term Loan A",
+          "Term Loan B",
+          "Term Loan C"
+        ],
+        "secured": []
+      },
+      "medians": {
+        "cash_assets": 0.055777318205,
+        "current_ratio": 1.6593046325,
+        "debt_assets": 0.2604125334,
+        "fedfunds_pct": 0.97,
+        "inflation_yoy_pct": 2.012072435,
+        "interest_coverage": 6.025720966,
+        "log_assets": 6.782067332,
+        "log_loan_amount": 18.72078534,
+        "maturity_months": 48.0,
+        "net_income_assets": 0.03076024283,
+        "operating_income_assets": 0.1063498715,
+        "return_12m": 0.13993388655,
+        "sales_assets": 0.8368387023,
+        "tangible_assets": 0.190934128,
+        "unemployment_pct": 5.9,
+        "volatility_12m": 0.33149464915000004
+      },
+      "n_cols": 51,
+      "n_cols_tree": 51,
+      "reference_levels": {
+        "industry": "Manufacturing",
+        "loan_purpose": "Corp. purposes",
+        "loan_type": "Revolver/Line >= 1 Yr.",
+        "secured": "Yes"
+      },
+      "scaler": {
+        "cash_assets": {
+          "mean": 0.11282576311294662,
+          "scale": 0.1459164398695585
+        },
+        "current_ratio": {
+          "mean": 1.9555604343609214,
+          "scale": 1.2637984985225987
+        },
+        "debt_assets": {
+          "mean": 0.2892295732542486,
+          "scale": 0.22470623173289517
+        },
+        "fedfunds_pct": {
+          "mean": 2.2281982198700985,
+          "scale": 2.419836464904023
+        },
+        "inflation_yoy_pct": {
+          "mean": 2.159086649759939,
+          "scale": 0.9266445509656984
+        },
+        "interest_coverage": {
+          "mean": 24.79573840427063,
+          "scale": 98.04969764086908
+        },
+        "log_assets": {
+          "mean": 6.827193384901587,
+          "scale": 2.271719821386599
+        },
+        "log_loan_amount": {
+          "mean": 18.614093042020688,
+          "scale": 1.7310584281449592
+        },
+        "maturity_months": {
+          "mean": 44.45850372865047,
+          "scale": 19.216916886167276
+        },
+        "net_income_assets": {
+          "mean": 0.0025105571637349467,
+          "scale": 0.15422994588067232
+        },
+        "operating_income_assets": {
+          "mean": 0.09775208307847183,
+          "scale": 0.1244284162940221
+        },
+        "return_12m": {
+          "mean": 0.1727792142388985,
+          "scale": 0.45755992351482105
+        },
+        "sales_assets": {
+          "mean": 1.0339695613301787,
+          "scale": 0.8792226068211447
+        },
+        "tangible_assets": {
+          "mean": 0.2762618507293218,
+          "scale": 0.2511119002532444
+        },
+        "unemployment_pct": {
+          "mean": 6.062232379119559,
+          "scale": 1.437372787440683
+        },
+        "volatility_12m": {
+          "mean": 0.39591445319063895,
+          "scale": 0.2503452947713706
+        }
+      }
+    },
+    "split_label_matches_year": true,
+    "splits": {
+      "test": {
+        "first_date": "2018-01-01",
+        "last_date": "2019-12-30",
+        "max_year": 2019,
+        "min_year": 2018,
+        "n": 1279
+      },
+      "train": {
+        "first_date": "1996-01-02",
+        "last_date": "2014-12-31",
+        "max_year": 2014,
+        "min_year": 1996,
+        "n": 4157
+      },
+      "validation": {
+        "first_date": "2015-01-02",
+        "last_date": "2017-12-31",
+        "max_year": 2017,
+        "min_year": 2015,
+        "n": 2169
+      }
+    },
+    "test_facilities_seen": {
+      "n": 1163,
+      "share": 0.9093041438623924
+    },
+    "timing": {
+      "acc_age_max": 18,
+      "acc_age_min": 6,
+      "acc_avail_before_loan": true,
+      "acc_avail_rule_ok": true,
+      "macro_lag_ok": true,
+      "market_lag_ok": true,
+      "market_missing_aligned": true
+    },
+    "unseen": {
+      "test_vs_dev": [],
+      "validation_vs_train": [
+        {
+          "feature": "loan_purpose",
+          "level": "Dividend or Distribution to Shareholders",
+          "n": 1
+        },
+        {
+          "feature": "loan_purpose",
+          "level": "MBO",
+          "n": 1
+        }
+      ]
+    }
+  },
+  "s3": {
+    "candidates": {
+      "constant": {
+        "family": "constant",
+        "train_mae": 89.56831823864948,
+        "train_rmse": 117.72551975837756,
+        "train_val_gap": -22.6080427408114,
+        "val_mae": 71.05736908145293,
+        "val_rmse": 95.11747701756616
+      },
+      "gbm_d2_l100": {
+        "family": "gbm",
+        "max_depth": 2,
+        "min_samples_leaf": 100,
+        "train_mae": 52.31785139332952,
+        "train_rmse": 77.31538540842648,
+        "train_val_gap": -5.446725289066407,
+        "val_mae": 43.608435370783916,
+        "val_rmse": 71.86866011936007
+      },
+      "gbm_d2_l20": {
+        "family": "gbm",
+        "max_depth": 2,
+        "min_samples_leaf": 20,
+        "train_mae": 51.143163781514374,
+        "train_rmse": 75.04135511882514,
+        "train_val_gap": -3.904806565985595,
+        "val_mae": 43.33101090430653,
+        "val_rmse": 71.13654855283954
+      },
+      "gbm_d3_l100": {
+        "family": "gbm",
+        "max_depth": 3,
+        "min_samples_leaf": 100,
+        "train_mae": 49.39535472342753,
+        "train_rmse": 73.5365522090047,
+        "train_val_gap": -1.5298355206767837,
+        "val_mae": 44.01920550157784,
+        "val_rmse": 72.00671668832791
+      },
+      "gbm_d3_l20": {
+        "family": "gbm",
+        "max_depth": 3,
+        "min_samples_leaf": 20,
+        "train_mae": 47.28199387257476,
+        "train_rmse": 69.29145274458644,
+        "train_val_gap": 1.5986696049622395,
+        "val_mae": 43.75494620731721,
+        "val_rmse": 70.89012234954868
+      },
+      "gbm_d5_l100": {
+        "family": "gbm",
+        "max_depth": 5,
+        "min_samples_leaf": 100,
+        "train_mae": 44.68554475484916,
+        "train_rmse": 66.63683989648449,
+        "train_val_gap": 5.1319551187733765,
+        "val_mae": 44.90408788121068,
+        "val_rmse": 71.76879501525787
+      },
+      "gbm_d5_l20": {
+        "family": "gbm",
+        "max_depth": 5,
+        "min_samples_leaf": 20,
+        "train_mae": 38.60642959454967,
+        "train_rmse": 56.21307561421208,
+        "train_val_gap": 17.03729116438712,
+        "val_mae": 47.082503893621016,
+        "val_rmse": 73.2503667785992
+      },
+      "ols": {
+        "family": "ols",
+        "train_mae": 57.447473303580104,
+        "train_rmse": 82.08583721866286,
+        "train_val_gap": -10.202163571809578,
+        "val_mae": 47.515296409602016,
+        "val_rmse": 71.88367364685328
+      },
+      "ridge_a0.01": {
+        "alpha": 0.01,
+        "family": "ridge",
+        "train_mae": 57.447218645769624,
+        "train_rmse": 82.0858377125216,
+        "train_val_gap": -10.202153318538052,
+        "val_mae": 47.51487765496634,
+        "val_rmse": 71.88368439398354
+      },
+      "ridge_a0.1": {
+        "alpha": 0.1,
+        "family": "ridge",
+        "train_mae": 57.4448985802865,
+        "train_rmse": 82.08588483156893,
+        "train_val_gap": -10.202089157898115,
+        "val_mae": 47.51111163671801,
+        "val_rmse": 71.88379567367082
+      },
+      "ridge_a1": {
+        "alpha": 1.0,
+        "family": "ridge",
+        "train_mae": 57.42324689643667,
+        "train_rmse": 82.08949785595578,
+        "train_val_gap": -10.201382871467203,
+        "val_mae": 47.47884729660835,
+        "val_rmse": 71.88811498448858
+      },
+      "ridge_a10": {
+        "alpha": 10.0,
+        "family": "ridge",
+        "train_mae": 57.345862208359904,
+        "train_rmse": 82.19612401242092,
+        "train_val_gap": -10.174607482575652,
+        "val_mae": 47.28480400091687,
+        "val_rmse": 72.02151652984527
+      },
+      "ridge_a100": {
+        "alpha": 100.0,
+        "family": "ridge",
+        "train_mae": 57.714204376704814,
+        "train_rmse": 83.12852972076246,
+        "train_val_gap": -10.413731832350322,
+        "val_mae": 46.468567417313466,
+        "val_rmse": 72.71479788841214
+      },
+      "ridge_a1000": {
+        "alpha": 1000.0,
+        "family": "ridge",
+        "train_mae": 60.61294470660886,
+        "train_rmse": 86.69315942631833,
+        "train_val_gap": -12.794106392795555,
+        "val_mae": 44.99969005220451,
+        "val_rmse": 73.89905303352278
+      },
+      "ridge_a10000": {
+        "alpha": 10000.0,
+        "family": "ridge",
+        "train_mae": 71.98665188151264,
+        "train_rmse": 98.8473700454435,
+        "train_val_gap": -18.928662468889385,
+        "val_mae": 52.704432798082706,
+        "val_rmse": 79.91870757655411
+      },
+      "ridge_a100000": {
+        "alpha": 100000.0,
+        "family": "ridge",
+        "train_mae": 86.01463117508352,
+        "train_rmse": 113.78604810039069,
+        "train_val_gap": -22.049367139275134,
+        "val_mae": 67.37268725145466,
+        "val_rmse": 91.73668096111555
+      }
+    },
+    "log_ridge": {
+      "candidates": {
+        "ridgelog_a0.01": {
+          "alpha": 0.01,
+          "smearing": 1.1020814766053693,
+          "val_mae": 45.021789678432185,
+          "val_rmse": 70.34694511305376,
+          "val_rmse_naive": 71.0912057107436
+        },
+        "ridgelog_a0.1": {
+          "alpha": 0.1,
+          "smearing": 1.1020807765427383,
+          "val_mae": 45.020485114090285,
+          "val_rmse": 70.34306746418967,
+          "val_rmse_naive": 71.09115706807064
+        },
+        "ridgelog_a1": {
+          "alpha": 1.0,
+          "smearing": 1.102075926479039,
+          "val_mae": 45.007816569135635,
+          "val_rmse": 70.31024527482087,
+          "val_rmse_naive": 71.09311946474965
+        },
+        "ridgelog_a10": {
+          "alpha": 10.0,
+          "smearing": 1.1021209581566593,
+          "val_mae": 44.880862531474904,
+          "val_rmse": 70.20081703786805,
+          "val_rmse_naive": 71.25032042207728
+        },
+        "ridgelog_a100": {
+          "alpha": 100.0,
+          "smearing": 1.1037865917860699,
+          "val_mae": 44.36520713628091,
+          "val_rmse": 71.17208330167388,
+          "val_rmse_naive": 73.27662979826037
+        },
+        "ridgelog_a1000": {
+          "alpha": 1000.0,
+          "smearing": 1.1141823606212171,
+          "val_mae": 44.22088026222855,
+          "val_rmse": 74.1348170865254,
+          "val_rmse_naive": 78.42462034318102
+        },
+        "ridgelog_a10000": {
+          "alpha": 10000.0,
+          "smearing": 1.1501404810182292,
+          "val_mae": 50.862383051039195,
+          "val_rmse": 79.63615932992118,
+          "val_rmse_naive": 83.6917164746781
+        },
+        "ridgelog_a100000": {
+          "alpha": 100000.0,
+          "smearing": 1.2013554329203897,
+          "val_mae": 66.44118246362817,
+          "val_rmse": 91.21035407672319,
+          "val_rmse_naive": 90.04443934882673
+        }
+      },
+      "selected": {
+        "alpha": 10.0,
+        "key": "ridgelog_a10",
+        "smearing": 1.1021209581566593,
+        "val_mae": 44.880862531474904,
+        "val_rmse": 70.20081703786805,
+        "val_rmse_naive": 71.25032042207728
+      }
+    },
+    "n_val_by_year": {
+      "2015": 878,
+      "2016": 671,
+      "2017": 620
+    },
+    "ols_coef_l2": 227.1503793427925,
+    "preferred": {
+      "family": "gbm",
+      "key": "gbm_d3_l20",
+      "margin_bps": 0.9935512973046059,
+      "margin_rel": 0.01401537004556928,
+      "runner_up_family": "ols",
+      "runner_up_val_rmse": 71.88367364685328,
+      "val_mae": 43.75494620731721,
+      "val_rmse": 70.89012234954868
+    },
+    "ridge_coef_l2": {
+      "ridge_a0.01": 227.00178933837253,
+      "ridge_a0.1": 225.70079680570805,
+      "ridge_a1": 214.9826999862272,
+      "ridge_a10": 171.7633759207567,
+      "ridge_a100": 106.12159180450723,
+      "ridge_a1000": 58.76996265088062,
+      "ridge_a10000": 24.291144324569192,
+      "ridge_a100000": 4.243718990685674
+    },
+    "ridge_mae_rel_vs_ols": -0.0529430845955777,
+    "ridge_min_val_mae": {
+      "alpha": 1000.0,
+      "key": "ridge_a1000",
+      "val_mae": 44.99969005220451,
+      "val_rmse": 73.89905303352278
+    },
+    "selected": {
+      "constant": {
+        "key": "constant",
+        "train_rmse": 117.72551975837756,
+        "val_mae": 71.05736908145293,
+        "val_rmse": 95.11747701756616
+      },
+      "gbm": {
+        "key": "gbm_d3_l20",
+        "max_depth": 3,
+        "min_samples_leaf": 20,
+        "train_rmse": 69.29145274458644,
+        "val_mae": 43.75494620731721,
+        "val_rmse": 70.89012234954868
+      },
+      "ols": {
+        "key": "ols",
+        "train_rmse": 82.08583721866286,
+        "val_mae": 47.515296409602016,
+        "val_rmse": 71.88367364685328
+      },
+      "ridge": {
+        "alpha": 0.01,
+        "key": "ridge_a0.01",
+        "train_rmse": 82.0858377125216,
+        "val_mae": 47.51487765496634,
+        "val_rmse": 71.88368439398354
+      }
+    },
+    "val_rmse_by_year": {
+      "constant": {
+        "2015": 90.82422826398569,
+        "2016": 103.85574311693472,
+        "2017": 91.0830404769512
+      },
+      "gbm": {
+        "2015": 65.84322605165386,
+        "2016": 78.31046935351962,
+        "2017": 69.3142169397286
+      },
+      "ols": {
+        "2015": 66.73508069347999,
+        "2016": 77.88430111280591,
+        "2017": 72.14786590053409
+      },
+      "ridge": {
+        "2015": 66.73511716249341,
+        "2016": 77.88470110732288,
+        "2017": 72.14738827073022
+      }
+    },
+    "ybar_train": 196.51005285061345
+  },
+  "s4": {
+    "composition": {
+      "test": {
+        "mean_fedfunds": 1.9895387021110242,
+        "mean_spread": 149.13373729476152,
+        "mean_unemployment": 3.8246286161063336,
+        "median_log_assets": 8.693597274,
+        "median_log_loan_amount": 20.21244021,
+        "median_maturity": 60.0,
+        "median_spread": 135.0,
+        "n": 1279,
+        "sd_spread": 64.17881341488415,
+        "share_accounting_missing": 0.01563721657544957,
+        "share_corp_purposes": 0.8389366692728695,
+        "share_current_ratio_missing": 0.18295543393275998,
+        "share_main_revolver": 0.887412040656763,
+        "share_market_missing": 0.2642689601250977,
+        "share_secured_no": 0.27912431587177483,
+        "share_secured_unknown": 0.4331508991399531,
+        "share_secured_yes": 0.2877247849882721
+      },
+      "train": {
+        "mean_fedfunds": 2.2281982198700985,
+        "mean_spread": 196.51005285061345,
+        "mean_unemployment": 6.062232379119559,
+        "median_log_assets": 6.782067332,
+        "median_log_loan_amount": 18.72078534,
+        "median_maturity": 48.0,
+        "median_spread": 175.0,
+        "n": 4157,
+        "sd_spread": 117.73968222697117,
+        "share_accounting_missing": 0.03223478470050517,
+        "share_corp_purposes": 0.5097426028385855,
+        "share_current_ratio_missing": 0.19749819581428915,
+        "share_main_revolver": 0.8486889583834496,
+        "share_market_missing": 0.3365407745970652,
+        "share_secured_no": 0.22636516718787586,
+        "share_secured_unknown": 0.24464758239114745,
+        "share_secured_yes": 0.5289872504209767
+      },
+      "validation": {
+        "mean_fedfunds": 0.4146473029045643,
+        "mean_spread": 170.21588289534347,
+        "mean_unemployment": 4.968879668049793,
+        "median_log_assets": 8.254912423,
+        "median_log_loan_amount": 20.03011866,
+        "median_maturity": 60.0,
+        "median_spread": 150.0,
+        "n": 2169,
+        "sd_spread": 91.43197078440063,
+        "share_accounting_missing": 0.02120792992162287,
+        "share_corp_purposes": 0.781005071461503,
+        "share_current_ratio_missing": 0.1954817888427847,
+        "share_main_revolver": 0.8898109727985246,
+        "share_market_missing": 0.2918395573997234,
+        "share_secured_no": 0.31950207468879666,
+        "share_secured_unknown": 0.3148916551406178,
+        "share_secured_yes": 0.3656062701705855
+      }
+    },
+    "dev_p90": 325.0,
+    "high_spread_rel": {
+      "ridgelog_vs_ridge": {
+        "rel_high": 0.04268455451592241,
+        "rel_other": -0.09940418288600698
+      }
+    },
+    "high_spread_rmse": {
+      "constant": {
+        "n_high": 24,
+        "n_other": 1255,
+        "rmse_high": 246.12066020245558,
+        "rmse_other": 67.34750205746622
+      },
+      "gbm": {
+        "n_high": 24,
+        "n_other": 1255,
+        "rmse_high": 203.3194249218154,
+        "rmse_other": 54.107936557749184
+      },
+      "ols": {
+        "n_high": 24,
+        "n_other": 1255,
+        "rmse_high": 199.83361172721212,
+        "rmse_other": 47.432661232754384
+      },
+      "ridge": {
+        "n_high": 24,
+        "n_other": 1255,
+        "rmse_high": 199.83401878142809,
+        "rmse_other": 47.43226070369656
+      },
+      "ridge_log": {
+        "n_high": 24,
+        "n_other": 1255,
+        "rmse_high": 208.36384485023981,
+        "rmse_other": 42.71729558600954
+      }
+    },
+    "large_errors": {
+      "materiality": {
+        "accounting_missing": {
+          "excess": -0.4476418864908074,
+          "expected": 0.4476418864908074,
+          "observed": 0
+        },
+        "actual_above_dev_p90": {
+          "excess": 15.820943245403678,
+          "expected": 0.17905675459632295,
+          "observed": 16
+        },
+        "market_missing": {
+          "excess": 0.6139088729016784,
+          "expected": 7.386091127098322,
+          "observed": 8
+        },
+        "new_borrower": {
+          "excess": 2.515587529976019,
+          "expected": 2.484412470023981,
+          "observed": 5
+        },
+        "not_corp_purposes": {
+          "excess": 3.568345323741007,
+          "expected": 4.431654676258993,
+          "observed": 8
+        },
+        "not_main_revolver": {
+          "excess": 0.8665067945643488,
+          "expected": 3.1334932054356512,
+          "observed": 4
+        },
+        "secured_unknown": {
+          "excess": 1.913669064748202,
+          "expected": 12.086330935251798,
+          "observed": 14
+        }
+      },
+      "n": 28,
+      "n_over": 1,
+      "n_under": 27,
+      "profile": {
+        "large": {
+          "mean_actual": 373.2142857142857,
+          "mean_error": 194.09673553318203,
+          "mean_pred": 179.1175501811037,
+          "median_log_assets": 7.1531730265,
+          "n": 28,
+          "share_accounting_missing": 0.0,
+          "share_actual_above_dev_p90": 0.5714285714285714,
+          "share_market_missing": 0.2857142857142857,
+          "share_new_borrower": 0.17857142857142858,
+          "share_not_corp_purposes": 0.2857142857142857,
+          "share_not_main_revolver": 0.14285714285714285,
+          "share_secured_unknown": 0.5,
+          "share_under": 0.9642857142857143
+        },
+        "rest": {
+          "mean_actual": 144.118345323741,
+          "mean_error": 30.637556418618303,
+          "mean_pred": 113.48078890512274,
+          "median_log_assets": 8.718002295,
+          "n": 1251,
+          "share_accounting_missing": 0.01598721023181455,
+          "share_actual_above_dev_p90": 0.006394884092725819,
+          "share_market_missing": 0.2637889688249401,
+          "share_new_borrower": 0.08872901678657075,
+          "share_not_corp_purposes": 0.15827338129496402,
+          "share_not_main_revolver": 0.11191047162270183,
+          "share_secured_unknown": 0.4316546762589928,
+          "share_under": 0.7953637090327738
+        }
+      },
+      "share": 0.0218921032056294,
+      "share_under": 0.9642857142857143,
+      "threshold_bps": 141.78024469909735,
+      "top10": [
+        {
+          "accounting_missing": false,
+          "actual": 650.0,
+          "error": 410.14340244324933,
+          "facility_id": 428765,
+          "industry": "Retail",
+          "loan_date": "2019-08-30",
+          "loan_purpose": "Corp. purposes",
+          "loan_type": "Revolver/Line >= 1 Yr.",
+          "market_missing": true,
+          "predicted": 239.85659755675064,
+          "secured": "Yes",
+          "year": 2019
+        },
+        {
+          "accounting_missing": false,
+          "actual": 600.0,
+          "error": 373.0396710435374,
+          "facility_id": 425080,
+          "industry": "Finance and real estate",
+          "loan_date": "2019-06-26",
+          "loan_purpose": "Corp. purposes",
+          "loan_type": "Revolver/Line >= 1 Yr.",
+          "market_missing": true,
+          "predicted": 226.96032895646258,
+          "secured": "Yes",
+          "year": 2019
+        },
+        {
+          "accounting_missing": false,
+          "actual": 475.0,
+          "error": 298.1790829665772,
+          "facility_id": 407516,
+          "industry": "Manufacturing",
+          "loan_date": "2018-08-03",
+          "loan_purpose": "LBO",
+          "loan_type": "Revolver/Line >= 1 Yr.",
+          "market_missing": false,
+          "predicted": 176.8209170334228,
+          "secured": "Yes",
+          "year": 2018
+        },
+        {
+          "accounting_missing": false,
+          "actual": 700.0,
+          "error": 276.9578632458168,
+          "facility_id": 432598,
+          "industry": "Manufacturing",
+          "loan_date": "2019-11-14",
+          "loan_purpose": "Debtor-in-poss.",
+          "loan_type": "Revolver/Line < 1 Yr.",
+          "market_missing": false,
+          "predicted": 423.0421367541832,
+          "secured": "Yes",
+          "year": 2019
+        },
+        {
+          "accounting_missing": false,
+          "actual": 375.0,
+          "error": 232.8821733858553,
+          "facility_id": 413900,
+          "industry": "Transport and utilities",
+          "loan_date": "2018-12-06",
+          "loan_purpose": "Dividend Recap",
+          "loan_type": "Revolver/Line >= 1 Yr.",
+          "market_missing": false,
+          "predicted": 142.1178266141447,
+          "secured": "Yes",
+          "year": 2018
+        },
+        {
+          "accounting_missing": false,
+          "actual": 325.0,
+          "error": 229.06648218463852,
+          "facility_id": 430215,
+          "industry": "Mining",
+          "loan_date": "2019-09-17",
+          "loan_purpose": "Corp. purposes",
+          "loan_type": "Revolver/Line >= 1 Yr.",
+          "market_missing": true,
+          "predicted": 95.93351781536148,
+          "secured": "Unknown",
+          "year": 2019
+        },
+        {
+          "accounting_missing": false,
+          "actual": 300.0,
+          "error": 212.9598175989698,
+          "facility_id": 443273,
+          "industry": "Transport and utilities",
+          "loan_date": "2018-06-07",
+          "loan_purpose": "Corp. purposes",
+          "loan_type": "Revolver/Line >= 1 Yr.",
+          "market_missing": false,
+          "predicted": 87.0401824010302,
+          "secured": "No",
+          "year": 2018
+        },
+        {
+          "accounting_missing": false,
+          "actual": 375.0,
+          "error": 212.26100601816086,
+          "facility_id": 412629,
+          "industry": "Manufacturing",
+          "loan_date": "2018-11-08",
+          "loan_purpose": "Corp. purposes",
+          "loan_type": "Revolver/Line >= 1 Yr.",
+          "market_missing": false,
+          "predicted": 162.73899398183914,
+          "secured": "Unknown",
+          "year": 2018
+        },
+        {
+          "accounting_missing": false,
+          "actual": 375.0,
+          "error": 206.83757257307528,
+          "facility_id": 416668,
+          "industry": "Finance and real estate",
+          "loan_date": "2018-12-28",
+          "loan_purpose": "Corp. purposes",
+          "loan_type": "Revolver/Line >= 1 Yr.",
+          "market_missing": true,
+          "predicted": 168.16242742692472,
+          "secured": "Yes",
+          "year": 2018
+        },
+        {
+          "accounting_missing": false,
+          "actual": 425.0,
+          "error": 203.5849366996441,
+          "facility_id": 417597,
+          "industry": "Services",
+          "loan_date": "2019-03-08",
+          "loan_purpose": "Takeover",
+          "loan_type": "Revolver/Line >= 1 Yr.",
+          "market_missing": false,
+          "predicted": 221.4150633003559,
+          "secured": "Yes",
+          "year": 2019
+        }
+      ]
+    },
+    "median_by_year_all": {
+      "1996": 175.0,
+      "1997": 150.0,
+      "1998": 200.0,
+      "1999": 250.0,
+      "2000": 175.0,
+      "2001": 225.0,
+      "2002": 225.0,
+      "2003": 272.5,
+      "2004": 225.0,
+      "2005": 125.0,
+      "2006": 125.0,
+      "2007": 150.0,
+      "2008": 200.0,
+      "2009": 325.0,
+      "2010": 275.0,
+      "2011": 200.0,
+      "2012": 175.0,
+      "2013": 175.0,
+      "2014": 150.0,
+      "2015": 150.0,
+      "2016": 150.0,
+      "2017": 150.0,
+      "2018": 137.5,
+      "2019": 125.0
+    },
+    "metrics": {
+      "constant": {
+        "mae": 62.19384144202281,
+        "mean_error": -38.36081529771399,
+        "n": 1279,
+        "r2_oos": 0.0,
+        "rmse": 74.74792183981823
+      },
+      "gbm": {
+        "mae": 46.54585689157777,
+        "mean_error": 34.216021637701786,
+        "n": 1279,
+        "r2_oos": 0.3470062716613267,
+        "rmse": 60.40232112012319
+      },
+      "ols": {
+        "mae": 40.556319741788904,
+        "mean_error": 19.505212993660717,
+        "n": 1279,
+        "r2_oos": 0.47076350474369133,
+        "rmse": 54.37809826574157
+      },
+      "ridge": {
+        "mae": 40.556011338490045,
+        "mean_error": 19.504627564888228,
+        "n": 1279,
+        "r2_oos": 0.4707696312651155,
+        "rmse": 54.377783520300575
+      },
+      "ridge_log": {
+        "mae": 34.91982103207355,
+        "mean_error": 14.5894798963717,
+        "n": 1279,
+        "r2_oos": 0.5337236934681882,
+        "rmse": 51.04119064049862
+      }
+    },
+    "mse_decomposition": {
+      "constant": {
+        "bias_share": 0.26337673652068183,
+        "bias_sq": 1471.5521503053278,
+        "error_var": 4115.699669066248,
+        "mse": 5587.251819371576
+      },
+      "gbm": {
+        "bias_share": 0.3208867377334959,
+        "bias_sq": 1170.7361367116769,
+        "error_var": 2477.704259986803,
+        "mse": 3648.44039669848
+      },
+      "ols": {
+        "bias_share": 0.1286629082545195,
+        "bias_sq": 380.45333392807083,
+        "error_var": 2576.5242370705755,
+        "mse": 2956.9775709986466
+      },
+      "ridge": {
+        "bias_share": 0.12865667435152486,
+        "bias_sq": 380.4304964449977,
+        "error_var": 2576.512844135675,
+        "mse": 2956.9433405806726
+      },
+      "ridge_log": {
+        "bias_share": 0.08170300435122711,
+        "bias_sq": 212.85292364663397,
+        "error_var": 2392.35021835309,
+        "mse": 2605.203141999724
+      }
+    },
+    "n_by_year": {
+      "2018": 653,
+      "2019": 626
+    },
+    "n_dev": 6326,
+    "n_test": 1279,
+    "ols_rank_dev": 52,
+    "prep_dev": {
+      "caps": {
+        "current_ratio": {
+          "hi": 7.801543840599996,
+          "lo": 0.3251121076,
+          "n_above": 51,
+          "n_below": 50
+        },
+        "debt_assets": {
+          "hi": 0.98300562055,
+          "lo": 0.0,
+          "n_above": 62,
+          "n_below": 0
+        },
+        "interest_coverage": {
+          "hi": 646.752950785996,
+          "lo": -56.5874198508,
+          "n_above": 54,
+          "n_below": 54
+        },
+        "net_income_assets": {
+          "hi": 0.2474632146489987,
+          "lo": -0.701420249657,
+          "n_above": 62,
+          "n_below": 62
+        },
+        "operating_income_assets": {
+          "hi": 0.3858059552999994,
+          "lo": -0.401937660124,
+          "n_above": 59,
+          "n_below": 59
+        },
+        "return_12m": {
+          "hi": 2.24263196644,
+          "lo": -0.800294914846,
+          "n_above": 43,
+          "n_below": 43
+        },
+        "sales_assets": {
+          "hi": 4.310608859639973,
+          "lo": 0.0387615038703,
+          "n_above": 62,
+          "n_below": 62
+        },
+        "volatility_12m": {
+          "hi": 1.5350777600799883,
+          "lo": 0.1044227041,
+          "n_above": 43,
+          "n_below": 41
+        }
+      },
+      "feature_names": [
+        "num__log_loan_amount",
+        "num__maturity_months",
+        "num__log_assets",
+        "num__debt_assets",
+        "num__cash_assets",
+        "num__sales_assets",
+        "num__operating_income_assets",
+        "num__net_income_assets",
+        "num__tangible_assets",
+        "num__current_ratio",
+        "num__interest_coverage",
+        "num__return_12m",
+        "num__volatility_12m",
+        "num__inflation_yoy_pct",
+        "num__unemployment_pct",
+        "num__fedfunds_pct",
+        "miss__missing_maturity_months",
+        "miss__missing_log_assets",
+        "miss__missing_debt_assets",
+        "miss__missing_cash_assets",
+        "miss__missing_sales_assets",
+        "miss__missing_operating_income_assets",
+        "miss__missing_tangible_assets",
+        "miss__missing_current_ratio",
+        "miss__missing_interest_coverage",
+        "miss__missing_return_12m",
+        "cat__secured_No",
+        "cat__secured_Unknown",
+        "cat__loan_type_364-Day Facility",
+        "cat__loan_type_Delay Draw Term Loan",
+        "cat__loan_type_Revolver/Line < 1 Yr.",
+        "cat__loan_type_Revolver/Term Loan",
+        "cat__loan_type_infrequent_sklearn",
+        "cat__loan_purpose_Acquis. line",
+        "cat__loan_purpose_CP backup",
+        "cat__loan_purpose_Capital expend.",
+        "cat__loan_purpose_Debt Repay.",
+        "cat__loan_purpose_Debtor-in-poss.",
+        "cat__loan_purpose_Spinoff",
+        "cat__loan_purpose_Takeover",
+        "cat__loan_purpose_Work. cap.",
+        "cat__loan_purpose_infrequent_sklearn",
+        "cat__industry_Construction",
+        "cat__industry_Finance and real estate",
+        "cat__industry_Mining",
+        "cat__industry_Public administration",
+        "cat__industry_Retail",
+        "cat__industry_Services",
+        "cat__industry_Transport and utilities",
+        "cat__industry_Wholesale",
+        "cat__industry_infrequent_sklearn"
+      ],
+      "indicator_groups": {
+        "cash_assets": [
+          "cash_assets"
+        ],
+        "current_ratio": [
+          "current_ratio"
+        ],
+        "debt_assets": [
+          "debt_assets"
+        ],
+        "interest_coverage": [
+          "interest_coverage"
+        ],
+        "log_assets": [
+          "log_assets"
+        ],
+        "maturity_months": [
+          "maturity_months"
+        ],
+        "operating_income_assets": [
+          "operating_income_assets"
+        ],
+        "return_12m": [
+          "return_12m",
+          "volatility_12m"
+        ],
+        "sales_assets": [
+          "sales_assets",
+          "net_income_assets"
+        ],
+        "tangible_assets": [
+          "tangible_assets"
+        ]
+      },
+      "infrequent_levels": {
+        "industry": [
+          "Agriculture"
+        ],
+        "loan_purpose": [
+          "Dividend Recap",
+          "Dividend or Distribution to Shareholders",
+          "Equip. Purch.",
+          "Exit financing",
+          "IPO Relat. Finan.",
+          "LBO",
+          "MBO",
+          "Merger",
+          "Mort. Warehse.",
+          "Other",
+          "Proj. finance",
+          "Real estate",
+          "Rec. Prog.",
+          "Recap.",
+          "SBO",
+          "Securities Purchase",
+          "Ship finance",
+          "Stock buyback",
+          "TelcomBuildout"
+        ],
+        "loan_type": [
+          "Acquisition Facility",
+          "Bridge Loan",
+          "CAPEX Facility",
+          "Demand Loan",
+          "Limited Line",
+          "Multi-Option Facility",
+          "Other Loan",
+          "Securitisation",
+          "Synthetic Lease",
+          "Term Loan",
+          "Term Loan A",
+          "Term Loan B",
+          "Term Loan C"
+        ],
+        "secured": []
+      },
+      "medians": {
+        "cash_assets": 0.05588220636,
+        "current_ratio": 1.637944385,
+        "debt_assets": 0.28031956735,
+        "fedfunds_pct": 0.37,
+        "inflation_yoy_pct": 1.715098348,
+        "interest_coverage": 6.8132417405000005,
+        "log_assets": 7.3946749535,
+        "log_loan_amount": 19.23161096,
+        "maturity_months": 60.0,
+        "net_income_assets": 0.03314111734,
+        "operating_income_assets": 0.107698946,
+        "return_12m": 0.11744454735,
+        "sales_assets": 0.77018304515,
+        "tangible_assets": 0.18641146025,
+        "unemployment_pct": 5.35,
+        "volatility_12m": 0.30135949315
+      },
+      "n_cols": 51,
+      "n_cols_tree": 51,
+      "reference_levels": {
+        "industry": "Manufacturing",
+        "loan_purpose": "Corp. purposes",
+        "loan_type": "Revolver/Line >= 1 Yr.",
+        "secured": "Yes"
+      },
+      "scaler": {
+        "cash_assets": {
+          "mean": 0.10800692375453957,
+          "scale": 0.1368996156850208
+        },
+        "current_ratio": {
+          "mean": 1.9018958428116028,
+          "scale": 1.1793015253684673
+        },
+        "debt_assets": {
+          "mean": 0.29905533535579526,
+          "scale": 0.21666835230214157
+        },
+        "fedfunds_pct": {
+          "mean": 1.6063847613025608,
+          "scale": 2.1519316080733892
+        },
+        "inflation_yoy_pct": {
+          "mean": 1.7585006347489194,
+          "scale": 1.0666083141284886
+        },
+        "interest_coverage": {
+          "mean": 22.737565986555925,
+          "scale": 75.02199525367143
+        },
+        "log_assets": {
+          "mean": 7.344308391319064,
+          "scale": 2.2304823621537437
+        },
+        "log_loan_amount": {
+          "mean": 19.034578817568764,
+          "scale": 1.7068940622022506
+        },
+        "maturity_months": {
+          "mean": 47.304299715460004,
+          "scale": 18.191551227129562
+        },
+        "net_income_assets": {
+          "mean": 0.015611579978939546,
+          "scale": 0.12615899186258356
+        },
+        "operating_income_assets": {
+          "mean": 0.10551375725306897,
+          "scale": 0.10542049219522073
+        },
+        "return_12m": {
+          "mean": 0.14592687647493388,
+          "scale": 0.39891998328362127
+        },
+        "sales_assets": {
+          "mean": 0.977401108024674,
+          "scale": 0.835915594469222
+        },
+        "tangible_assets": {
+          "mean": 0.27227069687315214,
+          "scale": 0.2502790951971753
+        },
+        "unemployment_pct": {
+          "mean": 5.687353778058806,
+          "scale": 1.2994726612436849
+        },
+        "volatility_12m": {
+          "mean": 0.3543096431983623,
+          "scale": 0.21437315970419246
+        }
+      }
+    },
+    "r2_oos_2019_minus_2018": 0.04810602023955535,
+    "r2_oos_by_year": {
+      "constant": {
+        "2018": 0.0,
+        "2019": 0.0
+      },
+      "gbm": {
+        "2018": 0.3202007817653505,
+        "2019": 0.36830680200490584
+      },
+      "ols": {
+        "2018": 0.47514301830013317,
+        "2019": 0.46728339817742004
+      },
+      "ridge": {
+        "2018": 0.4751529456655996,
+        "2019": 0.4672865044222453
+      }
+    },
+    "r2_oos_parts": {
+      "constant": {
+        "level": 0.0,
+        "within": 0.0
+      },
+      "gbm": {
+        "level": 0.05383970927365238,
+        "within": 0.29316656238767447
+      },
+      "ols": {
+        "level": 0.19528362988657597,
+        "within": 0.2754798748571155
+      },
+      "ridge": {
+        "level": 0.1952877173134204,
+        "within": 0.27548191395169525
+      },
+      "ridge_log": {
+        "level": 0.2252805614192391,
+        "within": 0.30844313204894913
+      }
+    },
+    "r2_vs_test_mean": {
+      "constant": -0.3575460477268466,
+      "gbm": 0.11353094490341609,
+      "ols": 0.28153708755199025,
+      "ridge": 0.281545404586936,
+      "ridge_log": 0.3670084429190673
+    },
+    "ratio_2019_vs_2018_rel": -0.03603166131565361,
+    "ridge_log_smearing_dev": 1.0852747749446556,
+    "rmse_2019_vs_2018_rel": 0.10445712163501435,
+    "rmse_by_year": {
+      "constant": {
+        "2018": 69.61026673703878,
+        "2019": 79.7552697027018
+      },
+      "gbm": {
+        "2018": 57.39362137011692,
+        "2019": 63.38879385864918
+      },
+      "ols": {
+        "2018": 50.43055958984913,
+        "2019": 58.21132754749824
+      },
+      "ridge": {
+        "2018": 50.43008265519784,
+        "2019": 58.21115783352844
+      }
+    },
+    "rmse_ratio_by_year": {
+      "constant": {
+        "2018": 1.0,
+        "2019": 1.0
+      },
+      "gbm": {
+        "2018": 0.8244993743082221,
+        "2019": 0.7947912920981799
+      },
+      "ols": {
+        "2018": 0.7244701385839631,
+        "2019": 0.7298743740004715
+      },
+      "ridge": {
+        "2018": 0.7244632870852742,
+        "2019": 0.7298722460662241
+      }
+    },
+    "seen_new": {
+      "constant": {
+        "n_new": 116,
+        "n_seen": 1163,
+        "rel": 0.03785291425240995,
+        "rmse_new": 77.30739249556314,
+        "rmse_seen": 74.48781174473984
+      },
+      "gbm": {
+        "n_new": 116,
+        "n_seen": 1163,
+        "rel": 0.1355938475270487,
+        "rmse_new": 67.70914044697753,
+        "rmse_seen": 59.624434030200014
+      },
+      "ols": {
+        "n_new": 116,
+        "n_seen": 1163,
+        "rel": 0.1290954406602202,
+        "rmse_new": 60.64680363743834,
+        "rmse_seen": 53.712734507169834
+      },
+      "ridge": {
+        "n_new": 116,
+        "n_seen": 1163,
+        "rel": 0.12909649904769763,
+        "rmse_new": 60.64650304350324,
+        "rmse_seen": 53.712417932970034
+      }
+    },
+    "seen_new_boot": {
+      "d": 8.084706416777514,
+      "hi": 21.68290929416569,
+      "lo": -4.823224853906496,
+      "n_boot": 2000,
+      "n_clusters_new": 93,
+      "n_clusters_seen": 792
+    },
+    "share_under": {
+      "constant": 0.1751368256450352,
+      "gbm": 0.799061767005473,
+      "ols": 0.6645817044566067,
+      "ridge": 0.6645817044566067,
+      "ridge_log": 0.6465989053948398
+    },
+    "shares_by_year": {
+      "1996": {
+        "main_revolver": 0.824468085106383,
+        "market_available": 0.0,
+        "secured_unknown": 0.16489361702127658
+      },
+      "1997": {
+        "main_revolver": 0.8689655172413793,
+        "market_available": 0.7379310344827587,
+        "secured_unknown": 0.2206896551724138
+      },
+      "1998": {
+        "main_revolver": 0.7889908256880734,
+        "market_available": 0.6513761467889908,
+        "secured_unknown": 0.17889908256880735
+      },
+      "1999": {
+        "main_revolver": 0.7425149700598802,
+        "market_available": 0.7065868263473054,
+        "secured_unknown": 0.18562874251497005
+      },
+      "2000": {
+        "main_revolver": 0.6139534883720931,
+        "market_available": 0.7255813953488373,
+        "secured_unknown": 0.3813953488372093
+      },
+      "2001": {
+        "main_revolver": 0.69375,
+        "market_available": 0.725,
+        "secured_unknown": 0.25625
+      },
+      "2002": {
+        "main_revolver": 0.7183098591549296,
+        "market_available": 0.704225352112676,
+        "secured_unknown": 0.2887323943661972
+      },
+      "2003": {
+        "main_revolver": 0.6637931034482759,
+        "market_available": 0.6551724137931034,
+        "secured_unknown": 0.3017241379310345
+      },
+      "2004": {
+        "main_revolver": 0.8305084745762712,
+        "market_available": 0.6440677966101694,
+        "secured_unknown": 0.2796610169491525
+      },
+      "2005": {
+        "main_revolver": 0.859375,
+        "market_available": 0.7109375,
+        "secured_unknown": 0.21875
+      },
+      "2006": {
+        "main_revolver": 0.8802816901408451,
+        "market_available": 0.6901408450704225,
+        "secured_unknown": 0.20422535211267606
+      },
+      "2007": {
+        "main_revolver": 0.8181818181818182,
+        "market_available": 0.6363636363636364,
+        "secured_unknown": 0.24242424242424243
+      },
+      "2008": {
+        "main_revolver": 0.7864077669902912,
+        "market_available": 0.6893203883495146,
+        "secured_unknown": 0.21359223300970873
+      },
+      "2009": {
+        "main_revolver": 0.8918918918918919,
+        "market_available": 0.7972972972972973,
+        "secured_unknown": 0.13513513513513514
+      },
+      "2010": {
+        "main_revolver": 0.8987341772151899,
+        "market_available": 0.7341772151898734,
+        "secured_unknown": 0.21518987341772153
+      },
+      "2011": {
+        "main_revolver": 0.94,
+        "market_available": 0.75,
+        "secured_unknown": 0.26
+      },
+      "2012": {
+        "main_revolver": 0.8983050847457628,
+        "market_available": 0.7372881355932204,
+        "secured_unknown": 0.2542372881355932
+      },
+      "2013": {
+        "main_revolver": 0.927536231884058,
+        "market_available": 0.6811594202898551,
+        "secured_unknown": 0.24758454106280192
+      },
+      "2014": {
+        "main_revolver": 0.9208715596330275,
+        "market_available": 0.6811926605504587,
+        "secured_unknown": 0.2626146788990826
+      },
+      "2015": {
+        "main_revolver": 0.8849658314350797,
+        "market_available": 0.6822323462414579,
+        "secured_unknown": 0.21753986332574032
+      },
+      "2016": {
+        "main_revolver": 0.8748137108792846,
+        "market_available": 0.7481371087928465,
+        "secured_unknown": 0.33383010432190763
+      },
+      "2017": {
+        "main_revolver": 0.9129032258064517,
+        "market_available": 0.7016129032258065,
+        "secured_unknown": 0.432258064516129
+      },
+      "2018": {
+        "main_revolver": 0.891271056661562,
+        "market_available": 0.7335375191424196,
+        "secured_unknown": 0.45788667687595713
+      },
+      "2019": {
+        "main_revolver": 0.8833865814696485,
+        "market_available": 0.7380191693290735,
+        "secured_unknown": 0.4073482428115016
+      }
+    },
+    "test_gap": {
+      "bias_share_of_gap": 1.142890824009579,
+      "bias_sq_diff": 790.3056402666791,
+      "error_var_diff": -98.80858414887189,
+      "error_var_rel": -0.03834973474856421,
+      "mse_diff": 691.4970561178075,
+      "other": "ridge",
+      "pref": "gbm"
+    },
+    "test_rank": [
+      "ridge",
+      "ols",
+      "gbm"
+    ],
+    "test_sd_by_year": {
+      "2018": 58.868606711412454,
+      "2019": 69.31356442701728
+    },
+    "test_target_reads": 2,
+    "ybar_dev": 187.49455259247551
+  },
+  "s5": {
+    "baseline_val_rmse": 70.89012234954868,
+    "block_perm": {
+      "borrower": {
+        "joint_minus_sum": 4.463033178068832,
+        "mean": 9.925063332739986,
+        "noise_sd": 0.6549982945082026,
+        "rel_joint_vs_sum": 0.8171015266644078,
+        "std": 0.4991010762301616,
+        "sum_individual": 5.4620301546711545
+      },
+      "loan": {
+        "joint_minus_sum": 1.116110113634985,
+        "mean": 17.47625605389971,
+        "noise_sd": 0.829482416823775,
+        "rel_joint_vs_sum": 0.06822128101486391,
+        "std": 0.5954202496099619,
+        "sum_individual": 16.360145940264726
+      },
+      "macro": {
+        "joint_minus_sum": 0.39520399598088074,
+        "mean": 0.20889041695723803,
+        "noise_sd": 0.27468143165549275,
+        "rel_joint_vs_sum": 0.0,
+        "std": 0.22945195001308571,
+        "sum_individual": -0.1863135790236427
+      },
+      "market": {
+        "joint_minus_sum": 0.18756794559376644,
+        "mean": 1.3726327612527456,
+        "noise_sd": 0.34835559505847064,
+        "rel_joint_vs_sum": 0.1582765289419765,
+        "std": 0.26593714422313564,
+        "sum_individual": 1.1850648156589791
+      }
+    },
+    "blocks": {
+      "a": {
+        "alpha": 100.0,
+        "alpha_position": "interior",
+        "by_alpha": {
+          "ridge_a0.01": 75.66819654931173,
+          "ridge_a0.1": 75.66723377133431,
+          "ridge_a1": 75.65810826867325,
+          "ridge_a10": 75.59582600393254,
+          "ridge_a100": 75.48809985664361,
+          "ridge_a1000": 77.12118167857295,
+          "ridge_a10000": 85.80592907994583,
+          "ridge_a100000": 93.61039921635718
+        },
+        "features": [
+          "log_loan_amount",
+          "maturity_months",
+          "secured",
+          "loan_type",
+          "loan_purpose",
+          "industry"
+        ],
+        "n_cols": 28,
+        "n_features": 6,
+        "val_mae": 48.324913578147616,
+        "val_rmse": 75.48809985664361
+      },
+      "b": {
+        "alpha": 100.0,
+        "alpha_position": "interior",
+        "by_alpha": {
+          "ridge_a0.01": 72.41078847571009,
+          "ridge_a0.1": 72.41045708315951,
+          "ridge_a1": 72.40450181821427,
+          "ridge_a10": 72.3728445650865,
+          "ridge_a100": 72.27851889560775,
+          "ridge_a1000": 73.66568430761001,
+          "ridge_a10000": 80.76686905053585,
+          "ridge_a100000": 92.0288526058396
+        },
+        "features": [
+          "log_loan_amount",
+          "maturity_months",
+          "secured",
+          "loan_type",
+          "loan_purpose",
+          "industry",
+          "log_assets",
+          "debt_assets",
+          "cash_assets",
+          "sales_assets",
+          "operating_income_assets",
+          "net_income_assets",
+          "tangible_assets",
+          "current_ratio",
+          "interest_coverage"
+        ],
+        "n_cols": 45,
+        "n_features": 15,
+        "val_mae": 45.230641746630056,
+        "val_rmse": 72.27851889560775
+      },
+      "c": {
+        "alpha": 0.01,
+        "alpha_position": "lowest",
+        "by_alpha": {
+          "ridge_a0.01": 71.88368439398354,
+          "ridge_a0.1": 71.88379567367082,
+          "ridge_a1": 71.88811498448858,
+          "ridge_a10": 72.02151652984527,
+          "ridge_a100": 72.71479788841214,
+          "ridge_a1000": 73.89905303352278,
+          "ridge_a10000": 79.91870757655411,
+          "ridge_a100000": 91.73668096111555
+        },
+        "features": [
+          "log_loan_amount",
+          "maturity_months",
+          "secured",
+          "loan_type",
+          "loan_purpose",
+          "industry",
+          "log_assets",
+          "debt_assets",
+          "cash_assets",
+          "sales_assets",
+          "operating_income_assets",
+          "net_income_assets",
+          "tangible_assets",
+          "current_ratio",
+          "interest_coverage",
+          "return_12m",
+          "volatility_12m",
+          "inflation_yoy_pct",
+          "unemployment_pct",
+          "fedfunds_pct"
+        ],
+        "n_cols": 51,
+        "n_features": 20,
+        "val_mae": 47.51487765496634,
+        "val_rmse": 71.88368439398354
+      }
+    },
+    "corr_pairs": [
+      {
+        "a": "log_loan_amount",
+        "b": "log_assets",
+        "rho": 0.7731317154432469
+      },
+      {
+        "a": "unemployment_pct",
+        "b": "fedfunds_pct",
+        "rho": -0.7563610956148296
+      },
+      {
+        "a": "operating_income_assets",
+        "b": "net_income_assets",
+        "rho": 0.7235573447003217
+      },
+      {
+        "a": "net_income_assets",
+        "b": "interest_coverage",
+        "rho": 0.678155505740486
+      },
+      {
+        "a": "operating_income_assets",
+        "b": "interest_coverage",
+        "rho": 0.6569719258624626
+      },
+      {
+        "a": "log_assets",
+        "b": "volatility_12m",
+        "rho": -0.6391684631034495
+      },
+      {
+        "a": "log_loan_amount",
+        "b": "volatility_12m",
+        "rho": -0.559615288155404
+      },
+      {
+        "a": "debt_assets",
+        "b": "interest_coverage",
+        "rho": -0.5230472592779748
+      },
+      {
+        "a": "inflation_yoy_pct",
+        "b": "fedfunds_pct",
+        "rho": 0.5112502253966832
+      }
+    ],
+    "direction": {
+      "interest_coverage": {
+        "grid": [
+          -5.0386630827999985,
+          -0.06280694116999995,
+          1.3291309123999997,
+          2.0513591466000007,
+          2.648510867,
+          3.3094053856,
+          3.8979787268999995,
+          4.514916433800001,
+          5.238718846,
+          6.025720966,
+          7.043453391300001,
+          8.4242621834,
+          9.9740708119,
+          12.19607843,
+          14.73775253,
+          18.96230366,
+          26.681049800999986,
+          43.808411458000016,
+          110.98321873999997
+        ],
+        "other_family": "ridge",
+        "other_pd_delta": -2.4061701827875766,
+        "pd_delta": -42.75793905719641,
+        "pd_other": [
+          157.53928004814438,
+          157.26637318303534,
+          157.1900306632293,
+          157.15041917976222,
+          157.11766766939493,
+          157.0814201079492,
+          157.049139089188,
+          157.01530239239347,
+          156.97560457122475,
+          156.93244048542923,
+          156.87662171619579,
+          156.80088958326408,
+          156.71588844933171,
+          156.59401974653088,
+          156.45461854781925,
+          156.22291791730157,
+          155.7995739234331,
+          154.86020300024776,
+          151.17591922116978
+        ],
+        "pd_pref": [
+          175.15976903572343,
+          184.11612503815948,
+          184.11612503815948,
+          184.30145188271925,
+          184.30145188271925,
+          168.13801929491692,
+          168.13801929491692,
+          155.38672384427952,
+          153.90727784084555,
+          152.19791113127783,
+          149.27095737247095,
+          149.178623462492,
+          149.178623462492,
+          148.75259772720852,
+          141.66151408044928,
+          141.35818598096307,
+          141.35818598096307,
+          141.35818598096307,
+          141.35818598096307
+        ],
+        "pd_rho": -0.9620660228782008,
+        "raw_counts": [
+          697,
+          696,
+          697,
+          696,
+          697
+        ],
+        "raw_delta": -125.0,
+        "raw_medians": [
+          275.0,
+          200.0,
+          150.0,
+          150.0,
+          150.0
+        ],
+        "ridge_coef_per_sd": -5.3776545877572435,
+        "straddle_share": 0.0008613264427217916,
+        "ties_split": false,
+        "top_value_share": 0.0022968705139247776
+      },
+      "log_assets": {
+        "grid": [
+          3.0772124329,
+          3.8287393436,
+          4.3777229202,
+          4.8629711134,
+          5.235178328,
+          5.6012950906,
+          5.8665195071,
+          6.1581414076000005,
+          6.5119341527,
+          6.782067332,
+          7.068592643600002,
+          7.3755280366,
+          7.6577891339,
+          8.0122231076,
+          8.3763762755,
+          8.7609384968,
+          9.273097301299998,
+          9.832410368,
+          10.691510754999998
+        ],
+        "other_family": "ridge",
+        "other_pd_delta": -27.343236049173157,
+        "pd_delta": -21.553644914418015,
+        "pd_other": [
+          178.40543535043176,
+          174.98266657561706,
+          172.482365099889,
+          170.27234129359152,
+          168.5771535182037,
+          166.90970421582767,
+          165.70176097628473,
+          164.37359252233838,
+          162.7622719648931,
+          161.53197216060764,
+          160.22701571024575,
+          158.82910318830116,
+          157.54356775846074,
+          155.9293267770115,
+          154.2708205085174,
+          152.51936285038383,
+          150.1867768327305,
+          147.6394305264439,
+          143.72672701950506
+        ],
+        "pd_pref": [
+          175.10518754621793,
+          164.65477608837838,
+          164.54560500456898,
+          164.85724045664688,
+          164.81663493811274,
+          164.81663493811274,
+          163.66201427876564,
+          162.98224108847407,
+          162.76676399461607,
+          162.19011012527307,
+          160.51542450266913,
+          158.90115738557898,
+          157.73035752178924,
+          155.1514584555526,
+          155.1514584555526,
+          153.9481649090309,
+          148.92216542343644,
+          143.10113117396037,
+          141.92557698790569
+        ],
+        "pd_rho": -0.9727835180281925,
+        "raw_counts": [
+          805,
+          804,
+          805,
+          804,
+          805
+        ],
+        "raw_delta": -130.0,
+        "raw_medians": [
+          255.0,
+          200.0,
+          175.0,
+          150.0,
+          125.0
+        ],
+        "ridge_coef_per_sd": -10.346364925944133,
+        "straddle_share": 0.0,
+        "ties_split": false,
+        "top_value_share": 0.0019885657469550086
+      },
+      "log_loan_amount": {
+        "grid": [
+          15.60727003,
+          16.11809565,
+          16.81124283,
+          17.03438638,
+          17.37085862,
+          17.72753356,
+          17.98989783,
+          18.25816181,
+          18.42068074,
+          18.72078534,
+          18.98029653,
+          19.11382792,
+          19.421272176000002,
+          19.61460321,
+          19.87929577,
+          20.1698806,
+          20.43558376,
+          20.72326584,
+          21.28288162
+        ],
+        "other_family": "ridge",
+        "other_pd_delta": -96.11832349593956,
+        "pd_delta": -84.85823662503631,
+        "pd_other": [
+          242.36543731029147,
+          231.70357245678565,
+          217.2363232284703,
+          212.57890926980562,
+          205.55611830282874,
+          198.1116600414903,
+          192.63563793216716,
+          187.0364780861445,
+          183.64441081317497,
+          177.3806789997326,
+          171.9642058875334,
+          169.1771615848597,
+          162.76023772841984,
+          158.7250654978326,
+          153.2004477183866,
+          147.13541091396993,
+          141.58970006440555,
+          135.5852489608461,
+          123.90504424392272
+        ],
+        "pd_pref": [
+          230.08939233313538,
+          228.17502993427198,
+          201.96567484200057,
+          202.14285139490403,
+          191.16451320768564,
+          186.591887060928,
+          186.6826687577782,
+          181.58029189778364,
+          163.57334917097864,
+          163.35948534265805,
+          150.46750984706355,
+          150.46750984706355,
+          150.00948475829907,
+          148.4140446795411,
+          147.8246378782373,
+          143.31679330923566,
+          143.31679330923566,
+          143.31679330923566,
+          142.3959506817852
+        ],
+        "pd_rho": -0.9942881156607085,
+        "raw_counts": [
+          832,
+          831,
+          831,
+          831,
+          832
+        ],
+        "raw_delta": -150.0,
+        "raw_medians": [
+          275.0,
+          225.0,
+          175.0,
+          150.0,
+          125.0
+        ],
+        "ridge_coef_per_sd": -36.13035504053974,
+        "straddle_share": 0.07168631224440702,
+        "ties_split": true,
+        "top_value_share": 0.05099831609333654
+      },
+      "volatility_12m": {
+        "grid": [
+          0.1387354278,
+          0.16193798316,
+          0.183983578605,
+          0.2078297037,
+          0.2278088499,
+          0.24648545725,
+          0.265256678105,
+          0.28762816512,
+          0.31122517819,
+          0.33149464915000004,
+          0.36218729543,
+          0.39366292972,
+          0.43655350490499994,
+          0.48450318937,
+          0.5374926234249999,
+          0.60349181554,
+          0.6888560905,
+          0.8008565727200001,
+          1.0140399674000002
+        ],
+        "other_family": "ridge",
+        "other_pd_delta": 43.170002300777014,
+        "pd_delta": 36.50861287854917,
+        "pd_other": [
+          142.64102761023176,
+          144.2087615667049,
+          145.69832286861984,
+          147.3095410927205,
+          148.6594780041125,
+          149.9214058857624,
+          151.18972654623468,
+          152.7013074607522,
+          154.295693858595,
+          155.66524722936379,
+          157.7390663859437,
+          159.86578992618922,
+          162.76379017171848,
+          166.00362075811776,
+          169.5839736034569,
+          174.0433606396302,
+          179.81119398591804,
+          187.37876386748192,
+          201.7829896784118
+        ],
+        "pd_pref": [
+          142.3740786289651,
+          142.3740786289651,
+          142.3740786289651,
+          142.3740786289651,
+          143.78643913351667,
+          147.08639976998882,
+          149.8374935982531,
+          153.8390537223118,
+          157.37035362169166,
+          159.52946480416207,
+          159.52946480416207,
+          159.52946480416207,
+          159.52946480416207,
+          158.86601224632446,
+          158.62679519341344,
+          168.98336156745643,
+          170.1149150879469,
+          178.88269150751427,
+          177.35742419739566
+        ],
+        "pd_rho": 0.9451697544153929,
+        "raw_counts": [
+          552,
+          551,
+          552,
+          551,
+          552
+        ],
+        "raw_delta": 150.0,
+        "raw_medians": [
+          125.0,
+          150.0,
+          175.0,
+          200.0,
+          275.0
+        ],
+        "ridge_coef_per_sd": 16.91515496318779,
+        "straddle_share": 0.0007251631617113851,
+        "ties_split": false,
+        "top_value_share": 0.0029006526468455403
+      }
+    },
+    "most_informative_block": "loan",
+    "nested_gain": {
+      "a": 19.629377160922544,
+      "b": 3.2095809610358685,
+      "cd": 0.39483450162420297
+    },
+    "nested_gain_top": "a",
+    "perm": {
+      "cash_assets": {
+        "block": "borrower",
+        "mean": 0.11712924717963773,
+        "rank": 16,
+        "std": 0.09858060139443325
+      },
+      "current_ratio": {
+        "block": "borrower",
+        "mean": -0.09863731815281725,
+        "rank": 19,
+        "std": 0.12420052675563588
+      },
+      "debt_assets": {
+        "block": "borrower",
+        "mean": 0.43025398673096904,
+        "rank": 10,
+        "std": 0.15480917357565985
+      },
+      "fedfunds_pct": {
+        "block": "macro",
+        "mean": 0.08637913117387157,
+        "rank": 17,
+        "std": 0.12572859204642703
+      },
+      "industry": {
+        "block": "loan",
+        "mean": 0.25465408534744116,
+        "rank": 12,
+        "std": 0.11263185868778174
+      },
+      "inflation_yoy_pct": {
+        "block": "macro",
+        "mean": -0.2101942639534272,
+        "rank": 20,
+        "std": 0.08074323166405813
+      },
+      "interest_coverage": {
+        "block": "borrower",
+        "mean": 1.7734535092780987,
+        "rank": 4,
+        "std": 0.26798670861044405
+      },
+      "loan_purpose": {
+        "block": "loan",
+        "mean": 1.9496501276935034,
+        "rank": 3,
+        "std": 0.08418193436036903
+      },
+      "loan_type": {
+        "block": "loan",
+        "mean": 0.9832037170118995,
+        "rank": 7,
+        "std": 0.1696125381472069
+      },
+      "log_assets": {
+        "block": "borrower",
+        "mean": 1.6744603553789488,
+        "rank": 5,
+        "std": 0.16678049861274338
+      },
+      "log_loan_amount": {
+        "block": "loan",
+        "mean": 7.701211861631778,
+        "rank": 1,
+        "std": 0.40968463748476375
+      },
+      "maturity_months": {
+        "block": "loan",
+        "mean": 0.4791662169046454,
+        "rank": 9,
+        "std": 0.07595943489267638
+      },
+      "net_income_assets": {
+        "block": "borrower",
+        "mean": 0.8405944662218083,
+        "rank": 8,
+        "std": 0.1390513882428039
+      },
+      "operating_income_assets": {
+        "block": "borrower",
+        "mean": 0.22059791665069284,
+        "rank": 13,
+        "std": 0.05680742450743084
+      },
+      "return_12m": {
+        "block": "market",
+        "mean": 0.19357882416238753,
+        "rank": 14,
+        "std": 0.13476071737934642
+      },
+      "sales_assets": {
+        "block": "borrower",
+        "mean": 0.343306996023788,
+        "rank": 11,
+        "std": 0.08283770769904612
+      },
+      "secured": {
+        "block": "loan",
+        "mean": 4.992259931675459,
+        "rank": 2,
+        "std": 0.33371173409565474
+      },
+      "tangible_assets": {
+        "block": "borrower",
+        "mean": 0.16087099536002825,
+        "rank": 15,
+        "std": 0.041881104284376254
+      },
+      "unemployment_pct": {
+        "block": "macro",
+        "mean": -0.06249844624408709,
+        "rank": 18,
+        "std": 0.021784012806894095
+      },
+      "volatility_12m": {
+        "block": "market",
+        "mean": 0.9914859914965917,
+        "rank": 6,
+        "std": 0.18019046862247806
+      }
+    },
+    "perm_order": [
+      "log_loan_amount",
+      "secured",
+      "loan_purpose",
+      "interest_coverage",
+      "log_assets",
+      "volatility_12m",
+      "loan_type",
+      "net_income_assets",
+      "maturity_months",
+      "debt_assets",
+      "sales_assets",
+      "industry",
+      "operating_income_assets",
+      "return_12m",
+      "tangible_assets",
+      "cash_assets",
+      "fedfunds_pct",
+      "unemployment_pct",
+      "current_ratio",
+      "inflation_yoy_pct"
+    ],
+    "ridge_coefs": {
+      "cat__industry_Construction": 35.73230216627898,
+      "cat__industry_Finance and real estate": -5.136556577426605,
+      "cat__industry_Mining": 27.64221704679756,
+      "cat__industry_Public administration": 64.31524339121172,
+      "cat__industry_Retail": 1.4470784611372003,
+      "cat__industry_Services": 4.3800905478950884,
+      "cat__industry_Transport and utilities": 11.79699450049468,
+      "cat__industry_Wholesale": 2.5112406460210455,
+      "cat__industry_infrequent_sklearn": 4.932093174756575,
+      "cat__loan_purpose_Acquis. line": 9.611546513931975,
+      "cat__loan_purpose_CP backup": -18.663401657797564,
+      "cat__loan_purpose_Capital expend.": -1.8789329297862867,
+      "cat__loan_purpose_Debt Repay.": 2.2393138952499076,
+      "cat__loan_purpose_Debtor-in-poss.": 112.39811250563868,
+      "cat__loan_purpose_Spinoff": 19.704490616526147,
+      "cat__loan_purpose_Takeover": 20.691237564564254,
+      "cat__loan_purpose_Work. cap.": -7.815586575492227,
+      "cat__loan_purpose_infrequent_sklearn": 15.150054221116514,
+      "cat__loan_type_364-Day Facility": -47.148790646595415,
+      "cat__loan_type_Delay Draw Term Loan": 39.0729106393183,
+      "cat__loan_type_Revolver/Line < 1 Yr.": -14.31355775910753,
+      "cat__loan_type_Revolver/Term Loan": -3.44237632115873,
+      "cat__loan_type_infrequent_sklearn": 67.02282957446613,
+      "cat__secured_No": -54.80143122863183,
+      "cat__secured_Unknown": -41.72510948369863,
+      "miss__missing_cash_assets": -50.16146962679846,
+      "miss__missing_current_ratio": 1.2305607928402613,
+      "miss__missing_debt_assets": 15.416392447491898,
+      "miss__missing_interest_coverage": -15.099110066712162,
+      "miss__missing_log_assets": -31.971890591093263,
+      "miss__missing_maturity_months": 29.353849700346718,
+      "miss__missing_operating_income_assets": -12.79847150274791,
+      "miss__missing_return_12m": 13.196870587837807,
+      "miss__missing_sales_assets": 97.4001971239293,
+      "miss__missing_tangible_assets": -1.1565554081473843,
+      "num__cash_assets": 2.9535849632985327,
+      "num__current_ratio": -7.351194559167519,
+      "num__debt_assets": 12.91457666011869,
+      "num__fedfunds_pct": -19.37494518088778,
+      "num__inflation_yoy_pct": -2.9023158988989017,
+      "num__interest_coverage": -5.3776545877572435,
+      "num__log_assets": -10.346364925944133,
+      "num__log_loan_amount": -36.13035504053974,
+      "num__maturity_months": -10.688248533419452,
+      "num__net_income_assets": -4.196571276925609,
+      "num__operating_income_assets": -13.948229014870497,
+      "num__return_12m": -11.08861505833026,
+      "num__sales_assets": -1.7502321032367703,
+      "num__tangible_assets": -5.025651934316799,
+      "num__unemployment_pct": 15.196599689810705,
+      "num__volatility_12m": 16.91515496318779
+    },
+    "secured_pd": {
+      "No": 135.74760562230765,
+      "Unknown": 147.16224941502304,
+      "Yes": 171.99352022243525
+    },
+    "secured_pd_diff": {
+      "No": -36.245914600127605,
+      "Unknown": -24.83127080741221
+    },
+    "secured_pd_yes_minus_no": 36.245914600127605,
+    "top_numeric": [
+      "log_loan_amount",
+      "interest_coverage",
+      "log_assets",
+      "volatility_12m"
+    ]
+  },
+  "verdicts": {
+    "block_sharing": {
+      "borrower": "joint_larger",
+      "loan": "similar",
+      "macro": "similar",
+      "market": "similar"
+    },
+    "block_sharing_reason": {
+      "borrower": "both_met",
+      "loan": "below_rel_threshold",
+      "macro": "sum_not_positive",
+      "market": "within_noise"
+    },
+    "by_year_test": "similar",
+    "direction": {
+      "interest_coverage": {
+        "agree": "agree",
+        "pd_dir": "decreasing",
+        "pd_shape": "monotone",
+        "raw_dir": "decreasing",
+        "ridge_sign": "negative",
+        "size_vs_other": "pref_larger"
+      },
+      "log_assets": {
+        "agree": "agree",
+        "pd_dir": "decreasing",
+        "pd_shape": "monotone",
+        "raw_dir": "decreasing",
+        "ridge_sign": "negative",
+        "size_vs_other": "similar_size"
+      },
+      "log_loan_amount": {
+        "agree": "agree",
+        "pd_dir": "decreasing",
+        "pd_shape": "monotone",
+        "raw_dir": "decreasing",
+        "ridge_sign": "negative",
+        "size_vs_other": "similar_size"
+      },
+      "volatility_12m": {
+        "agree": "agree",
+        "pd_dir": "increasing",
+        "pd_shape": "monotone",
+        "raw_dir": "increasing",
+        "ridge_sign": "positive",
+        "size_vs_other": "similar_size"
+      }
+    },
+    "large_error_profile": {
+      "accounting_missing": "similar_given_n",
+      "actual_above_dev_p90": "more_often",
+      "market_missing": "similar_given_n",
+      "new_borrower": "similar_given_n",
+      "not_corp_purposes": "more_often",
+      "not_main_revolver": "similar_given_n",
+      "secured_unknown": "similar_given_n"
+    },
+    "large_errors_sign": "mostly_under",
+    "most_informative_block": {
+      "block": "loan",
+      "nested_check": "consistent"
+    },
+    "pairs": {
+      "blocks": {
+        "a_vs_constant": "lower_clear",
+        "b_vs_a": "lower_clear",
+        "c_vs_b": "similar"
+      },
+      "test": {
+        "gbm_vs_constant": "lower_clear",
+        "gbm_vs_ols": "higher_clear",
+        "gbm_vs_ridge": "higher_clear",
+        "ols_vs_constant": "lower_clear",
+        "ridge_vs_constant": "lower_clear",
+        "ridge_vs_ols": "similar",
+        "ridgelog_vs_ridge": "lower_clear"
+      },
+      "validation": {
+        "gbm_vs_constant": "lower_clear",
+        "gbm_vs_ols": "similar",
+        "gbm_vs_ridge": "similar",
+        "ols_vs_constant": "lower_clear",
+        "ridge_vs_constant": "lower_clear",
+        "ridge_vs_ols": "similar",
+        "ridgelog_vs_ridge": "lower_uncertain"
+      }
+    },
+    "pref_level_bias": "systematic_under",
+    "preferred_family": "gbm",
+    "r2_sign": {
+      "constant": "zero",
+      "gbm": "positive",
+      "ols": "positive",
+      "ridge": "positive"
+    },
+    "ridge_alpha_position": "lowest",
+    "ridge_mae_vs_ols": "lower",
+    "s1_relationships": {
+      "debt_assets": "increasing",
+      "log_assets": "decreasing",
+      "maturity_months": "decreasing",
+      "volatility_12m": "increasing"
+    },
+    "s1_secured": "secured_higher",
+    "secured_pd_dir": "secured_higher",
+    "seen_vs_new": "new_higher",
+    "seen_vs_new_robust": "not_robust",
+    "test_gap_source": "mostly_level",
+    "test_rank_matches_validation": false,
+    "under_base": "mostly_under"
+  }
+}
